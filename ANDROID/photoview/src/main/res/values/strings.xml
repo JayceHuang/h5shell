@@ -1,0 +1,5 @@
+<resources>
+    <string name="txwp_imageviewer_sava_bitmap_sucess">已保存到本地</string>
+    <string name="txwp_imageviewer_sava_bitmap_fail">保存图片失败</string>
+    <string name="txwp_imageviewer_load_bitmap_fail">无法正常加载图片</string>
+</resources>

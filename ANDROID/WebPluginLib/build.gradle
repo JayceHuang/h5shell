@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+apply from: 'fat-aar.gradle'
+
+buildscript {
+    repositories {
+        maven {
+            url "http://maven.oa.com/nexus/content/groups/androidbuild" //Tencent的mave仓库,包含了jcenten等一系列资源库
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+    }
+}
+
+//声明项目本身需要的资源，如果不添加这一配置，无法加载远程依赖包
+allprojects {
+    repositories {
+        maven {
+            url "http://maven.oa.com/nexus/content/groups/androidbuild"
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+//    embedded project(':imagepicker')
+//    compile project(':photoview')
+    compile project(':imagepicker')
+
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+
+}
+
+android {
+    publishNonDefault true
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled true
+            proguardFile 'proguard-android.txt'//指定混淆规则文件
+        }
+    }
+
+}

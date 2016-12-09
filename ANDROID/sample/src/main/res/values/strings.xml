@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">DOH</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy_MM_dd_HH_mm_ss</xliff:g></string>
+    <string name="timer_format"><xliff:g id="format">%02d</xliff:g>:<xliff:g id="format">%02d</xliff:g></string>
+</resources>

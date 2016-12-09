@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="txwp_color_primary">#3F51B5</color>
+    <color name="txwp_color_primary_dark">#303F9F</color>
+    <color name="txwp_color_accent">#FF4081</color>
+    <color name="txwp_translucent">#00000000</color>
+    <color name="txwp_transparent">#00000000</color>
+    <color name="txwp_link">#F6F6FB</color>
+    <color name="txwp_red">#ff0000</color>
+    <color name="txwp_black">#ff000000</color>
+    <color name="txwp_backup_grey">#464646</color>
+    <color name="txwp_white">#FFFFFF</color>
+</resources>

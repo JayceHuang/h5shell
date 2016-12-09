@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="download_1.1.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebPluginLib/libs/download_1.1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

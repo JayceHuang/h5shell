@@ -1,0 +1,50 @@
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    //编译lib目录下的.jar文件
+    compile fileTree(include: '*.jar', dir: 'libs')
+    debugCompile project(path:':WebPluginLib',configuration:'debug')
+    releaseCompile project(':WebPluginLib')
+//    compile project(':WebPluginLib')
+//  compile 'com.android.support:support-v4:24.0.0'
+//  compile 'com.android.support:appcompat-v7:23.4.0'
+}
+
+android {
+
+    defaultConfig {
+        multiDexEnabled true  //
+    }
+    signingConfigs { //签名配置
+        debug { //debug签名配置
+            storeFile file("debug.keystore")
+        }
+        release{ //发布版签名配置
+            storeFile file("release.keystore") //秘钥文件路径
+            storePassword "MigWcdDoh@20160815" //秘钥文件密码
+            keyAlias "doh" //Key别名
+            keyPassword "MigWcdDoh@20160815" //key密码
+        }
+    }
+
+    buildTypes{ //build类型
+        debug { //debug版本配置
+            signingConfig signingConfigs.release
+            minifyEnabled false  //混淆不开启
+
+        }
+        release { //发布版签名配置
+            signingConfig  signingConfigs.release//设置签名信息
+            minifyEnabled true  //混淆开启
+            proguardFile 'proguard-android.txt'//指定混淆规则文件
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+}

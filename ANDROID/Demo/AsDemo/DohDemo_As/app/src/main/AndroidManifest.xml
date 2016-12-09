@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.doh.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- WeiXin auth related -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <!-- WeiXin auth related -->
+
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="UITBZ-DY7WF-ZKPJR-JN7ZP-JQNX3-S2F7P"
+            />
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true" >
+            <intent-filter>
+                <!-- 【必须】 请修改为当前APP名包.PUSH_ACTION，如demo的包名为：com.tencent.doh.demo.dohdemo -->
+                <action android:name="com.tencent.doh.demo.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

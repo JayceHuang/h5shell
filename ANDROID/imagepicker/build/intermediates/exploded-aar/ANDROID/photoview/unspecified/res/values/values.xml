@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="txwp_background_holo_dark">#ff000000</color>
+    <color name="txwp_background_holo_light">#fff3f3f3</color>
+    <color name="txwp_backup_grey">#464646</color>
+    <color name="txwp_black">#ff000000</color>
+    <color name="txwp_bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="txwp_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="txwp_bright_foreground_holo_dark">@color/txwp_background_holo_light</color>
+    <color name="txwp_bright_foreground_holo_light">@color/txwp_background_holo_dark</color>
+    <color name="txwp_bright_foreground_inverse_holo_dark">@color/txwp_bright_foreground_holo_light</color>
+    <color name="txwp_bright_foreground_inverse_holo_light">@color/txwp_bright_foreground_holo_dark</color>
+    <color name="txwp_color_accent">#FF4081</color>
+    <color name="txwp_color_primary">#3F51B5</color>
+    <color name="txwp_color_primary_dark">#303F9F</color>
+    <color name="txwp_link">#F6F6FB</color>
+    <color name="txwp_red">#ff0000</color>
+    <color name="txwp_translucent">#00000000</color>
+    <color name="txwp_transparent">#00000000</color>
+    <color name="txwp_white">#FFFFFF</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="txwp_imageviewer_load_bitmap_fail">无法正常加载图片</string>
+    <string name="txwp_imageviewer_sava_bitmap_fail">保存图片失败</string>
+    <string name="txwp_imageviewer_sava_bitmap_sucess">已保存到本地</string>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/txwp_dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/txwp_tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

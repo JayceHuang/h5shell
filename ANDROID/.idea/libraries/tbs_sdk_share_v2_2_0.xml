@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tbs_sdk_share_v2.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebPluginLib/libs/tbs_sdk_share_v2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

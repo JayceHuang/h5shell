@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/twxp_color_primary</item>
+        <item name="colorPrimaryDark">@color/twxp_color_primary</item>
+        <item name="colorAccent">@color/txwp_color_accent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+    </style>
+
+
+</resources>

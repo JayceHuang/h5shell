@@ -1,0 +1,32 @@
+-keep class com.tencent.doh.demo.demo.QQApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.tencent.doh.demo.demo.MainActivity { <init>(); }
+-keep class com.tencent.doh.demo.demo.DemoActivity { <init>(); }
+-keep class com.tencent.doh.demo.demo.MedActivity { <init>(); }
+-keep class com.tencent.doh.demo.wxapi.WXEntryActivity { <init>(); }
+-keep class com.tencent.tauth.AuthActivity { <init>(); }
+-keep class com.tencent.connect.common.AssistActivity { <init>(); }
+-keep class com.tencent.doh.ui.activity.LocationActivity { <init>(); }
+-keep class com.tencent.doh.plugins.audio.RecorderService { <init>(); }
+-keep class com.tencent.android.tpush.XGPushActivity { <init>(); }
+-keep class com.tencent.android.tpush.XGPushReceiver { <init>(); }
+-keep class com.tencent.android.tpush.service.XGPushService { <init>(); }
+-keep class com.tencent.android.tpush.rpc.XGRemoteService { <init>(); }
+-keep class com.tencent.doh.plugins.xgpush.receiver.DohPushReceiver { <init>(); }
+-keep class com.lzy.imagepicker.ui.ImageBaseActivity { <init>(); }
+-keep class com.lzy.imagepicker.ui.ImageGridActivity { <init>(); }
+-keep class com.lzy.imagepicker.ui.ImageCropActivity { <init>(); }
+-keep class com.lzy.imagepicker.ui.ImagePreviewActivity { <init>(); }
+-keep class com.tencent.photoview.ImageViewerActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

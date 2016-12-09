@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <com.polites.android.GestureImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        gesture-image:max-scale="10.0"
+        gesture-image:min-scale="0.75" />
+
+    <ProgressBar
+        android:id="@+id/load_process"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:indeterminate="true"
+        android:indeterminateBehavior="repeat"
+       />
+
+    <TextView
+        android:id="@+id/load_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:drawableTop="@drawable/txwp_composer_popup_active_normal"
+        android:text="@string/txwp_imageviewer_load_bitmap_fail"
+        android:textColor="@color/txwp_white"/>
+
+
+
+</RelativeLayout>

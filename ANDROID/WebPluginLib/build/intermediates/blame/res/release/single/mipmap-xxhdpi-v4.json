@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_grid_camera.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_grid_camera.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_text_indicator.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_text_indicator.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_ic_back.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_ic_back.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_checkbox_checked.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_checkbox_checked.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_list_selected.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_list_selected.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_checkbox_normal.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_checkbox_normal.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_default_image.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_default_image.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_ic_del.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\imagepicker\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_ic_del.png"
+    },
+    {
+        "merged": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\txwp_ic_launcher.png",
+        "source": "C:\\WebviewPlugin\\ANDROID\\WebPluginLib\\build\\intermediates\\exploded-aar\\ANDROID\\photoview\\unspecified\\res\\mipmap-xxhdpi-v4\\txwp_ic_launcher.png"
+    }
+]

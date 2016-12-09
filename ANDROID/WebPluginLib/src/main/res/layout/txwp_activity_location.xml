@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tencent.tencentmap.mapsdk.map.MapView
+        android:id="@+id/mapviewOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btn_show_location"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/txwp_my_location"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="100dp"/>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="90dp"
+        android:background="@android:color/white">
+
+        <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txwp_black"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txwp_backup_grey"
+            android:textSize="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_show_url"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/txwp_goto_map"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

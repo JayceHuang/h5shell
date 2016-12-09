@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="twxp_color_primary">#3F51B5</color>
+    <color name="txwp_background_holo_dark">#ff000000</color>
+    <color name="txwp_background_holo_light">#fff3f3f3</color>
+    <color name="txwp_backup_grey">#464646</color>
+    <color name="txwp_black">#ff000000</color>
+    <color name="txwp_bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="txwp_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="txwp_bright_foreground_holo_dark">@color/txwp_background_holo_light</color>
+    <color name="txwp_bright_foreground_holo_light">@color/txwp_background_holo_dark</color>
+    <color name="txwp_bright_foreground_inverse_holo_dark">@color/txwp_bright_foreground_holo_light</color>
+    <color name="txwp_bright_foreground_inverse_holo_light">@color/txwp_bright_foreground_holo_dark</color>
+    <color name="txwp_color_accent">#FF4081</color>
+    <color name="txwp_color_primary">#3F51B5</color>
+    <color name="txwp_color_primary_dark">#303F9F</color>
+    <color name="txwp_f3f3f3">#F3F3F3</color>
+    <color name="txwp_link">#F6F6FB</color>
+    <color name="txwp_picker_black">#000000</color>
+    <color name="txwp_picker_transparent">#00000000</color>
+    <color name="txwp_red">#ff0000</color>
+    <color name="txwp_status_bar">#303135</color>
+    <color name="txwp_theme_body">#cc22292c</color>
+    <color name="txwp_top_bar">#9f556061</color>
+    <color name="txwp_translucent">#00000000</color>
+    <color name="txwp_transparent">#00000000</color>
+    <color name="txwp_white">#FFFFFF</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CropImageView"><attr format="color" name="cropMaskColor"/><attr format="color" name="cropBorderColor"/><attr format="dimension" name="cropBorderWidth"/><attr format="dimension" name="cropFocusWidth"/><attr format="dimension" name="cropFocusHeight"/><attr format="enum" name="cropStyle"><enum name="rectangle" value="0"/><enum name="circle" value="1"/></attr></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="txwp_all_images">全部图片</string>
+    <string name="txwp_complete">完成</string>
+    <string name="txwp_folder_image_count">共%1$d张</string>
+    <string name="txwp_imageviewer_load_bitmap_fail">无法正常加载图片</string>
+    <string name="txwp_imageviewer_sava_bitmap_fail">保存图片失败</string>
+    <string name="txwp_imageviewer_sava_bitmap_sucess">已保存到本地</string>
+    <string name="txwp_origin">原图</string>
+    <string name="txwp_origin_size">原图(%1$s)</string>
+    <string name="txwp_photo_crop">图片裁剪</string>
+    <string name="txwp_preview_count">预览(%1$s)</string>
+    <string name="txwp_preview_image_count">%1$s/%2$s</string>
+    <string name="txwp_select_complete">完成(%1$s/%2$s)</string>
+    <string name="txwp_select_limit">最多选择%1$s张图片</string>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/txwp_dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Txwp.ActionButton.Overflow.Menu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/txwp_webview_more</item>
+    </style>
+    <style name="Txwp.DlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/txwp_f3f3f3</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Txwp.DropDownStyle" parent="android:style/Widget.Holo.ListView.DropDown">
+        <!--<item name="android:listSelector">可添加选中背景颜色</item>-->
+        <item name="android:divider">#908d8d8d</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+    <style name="Txwp.ImagePickerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="Txwp.ImagePickerThemeFullScreen" parent="Txwp.ImagePickerTheme">
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+    <style name="Txwp.OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+    <style name="Txwp.SuperCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/txwp_selector_item_checked</item>
+    </style>
+    <style name="Txwp.Theme.ToolBar.Menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 设置-弹窗的背景-颜色-->
+        <item name="android:colorBackground">@drawable/txwp_toolbar_button_bg</item>
+        <!-- 字体的颜色-->
+        <item name="android:textColor">#ffffff</item>
+
+        <!-- 字体大小-->
+        <item name="android:textSize">18sp</item>
+
+        <!-- 用于替换菜单的三个小白点，换成自已的图片-->
+        <item name="actionOverflowButtonStyle">@style/Txwp.ActionButton.Overflow.Menu</item>
+
+        <!--用于控制menu弹出的位置，位于toolbar的下面，而不是上面-->
+        <item name="actionOverflowMenuStyle">@style/Txwp.OverflowMenuStyle</item>
+
+        <!-- 用于修改item默认的分割线-->
+        <item name="android:dropDownListViewStyle">@style/Txwp.DropDownStyle</item>
+        <item name="dropDownListViewStyle">@style/Txwp.DropDownStyle</item>
+
+        <!-- 用于控件popmenu的最大宽度-->
+        <item name="android:maxWidth">150dp</item>
+
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/txwp_tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="popupwindow_anim_style">
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@anim/txwp_show_from_bottom</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowExitAnimation">@anim/txwp_hide_to_bottom</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res"/><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\build\generated\res\rs\debug"/><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res"><file name="txwp_mune_default" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable\txwp_mune_default.png" qualifiers="" type="drawable"/><file name="txwp_refresh" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable\txwp_refresh.png" qualifiers="" type="drawable"/><file name="txwp_set_font" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable\txwp_set_font.png" qualifiers="" type="drawable"/><file name="txwp_toolbar_button_bg" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable\txwp_toolbar_button_bg.xml" qualifiers="" type="drawable"/><file name="txwp_webview_more" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable\txwp_webview_more.png" qualifiers="" type="drawable"/><file name="txwp_webview_close_press" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-mdpi\txwp_webview_close_press.png" qualifiers="mdpi-v4" type="drawable"/><file name="txwp_goto_map" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_goto_map.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_location_target" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_location_target.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_my_location" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_my_location.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_webview_close_normal" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_webview_close_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_webview_close_press" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_webview_close_press.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_webview_close_selector" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_webview_close_selector.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_webview_more" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\drawable-xhdpi\txwp_webview_more.png" qualifiers="xhdpi-v4" type="drawable"/><file name="txwp_activity_location" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\layout\txwp_activity_location.xml" qualifiers="" type="layout"/><file name="txwp_dlg_view" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\layout\txwp_dlg_view.xml" qualifiers="" type="layout"/><file name="txwp_toolbar" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\layout\txwp_toolbar.xml" qualifiers="" type="layout"/><file name="txwp_view_loading_dialog" path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\layout\txwp_view_loading_dialog.xml" qualifiers="" type="layout"/><file path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\values\color.xml" qualifiers=""><color name="txwp_f3f3f3">#F3F3F3</color><color name="twxp_color_primary">#3F51B5</color></file><file path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\main\res\values\styles.xml" qualifiers=""><style name="Txwp.OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style><style name="Txwp.Theme.ToolBar.Menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 设置-弹窗的背景-颜色-->
+        <item name="android:colorBackground">@drawable/txwp_toolbar_button_bg</item>
+        <!-- 字体的颜色-->
+        <item name="android:textColor">#ffffff</item>
+
+        <!-- 字体大小-->
+        <item name="android:textSize">18sp</item>
+
+        <!-- 用于替换菜单的三个小白点，换成自已的图片-->
+        <item name="actionOverflowButtonStyle">@style/Txwp.ActionButton.Overflow.Menu</item>
+
+        <!--用于控制menu弹出的位置，位于toolbar的下面，而不是上面-->
+        <item name="actionOverflowMenuStyle">@style/Txwp.OverflowMenuStyle</item>
+
+        <!-- 用于修改item默认的分割线-->
+        <item name="android:dropDownListViewStyle">@style/Txwp.DropDownStyle</item>
+        <item name="dropDownListViewStyle">@style/Txwp.DropDownStyle</item>
+
+        <!-- 用于控件popmenu的最大宽度-->
+        <item name="android:maxWidth">150dp</item>
+
+    </style><style name="Txwp.DlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/txwp_f3f3f3</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="Txwp.DropDownStyle" parent="android:style/Widget.Holo.ListView.DropDown">
+        <!--<item name="android:listSelector">可添加选中背景颜色</item>-->
+        <item name="android:divider">#908d8d8d</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style><style name="Txwp.ActionButton.Overflow.Menu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/txwp_webview_more</item>
+    </style></file></source><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\build\generated\res\rs\debug"/><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\WebviewPlugin\ANDROID\WebPluginLib\src\debug\res"/></dataSet><mergedItems/></merger>

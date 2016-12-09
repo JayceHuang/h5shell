@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "http://maven.oa.com/nexus/content/groups/androidbuild" //Tencent的mave仓库,包含了jcenten等一系列资源库
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+    }
+}
+//声明项目本身需要的资源，如果不添加这一配置，无法加载远程依赖包
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "http://maven.oa.com/nexus/content/groups/androidbuild"
+        }
+    }
+}

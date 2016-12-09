@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DOH JS-SDK Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="stylesheet" href="demo.css">
+    </head>
+    <body>
+        <div class="wxapi_container">
+            <div class="wxapi_index_container">
+                <ul class="label_box lbox_close wxapi_index_list">
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-wx">登录接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-share">分享接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-image">图像接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-audio">音频接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-xg">信鸽接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-device">设备接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-ui">UI接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-app">App接口</a></li>
+                    <li class="label_item wxapi_index_item"><a class="label_inner" href="#menu-location">位置信息接口</a></li>
+                </ul>
+            </div>
+            <div class="lbox_close wxapi_form">
+                <h3 id="menu-wx">登录接口</h3>
+                <span class="desc">微信登录</span>
+                <button class="btn btn_primary" id="wx-login">login</button>
+
+                <h3 id="menu-share">分享接口</h3>
+                <span class="desc">分享到Qzone</span>
+                <button class="btn btn_primary" id="share-shareQZone">shareQZone</button>
+                <span class="desc">分享到QQ好友</span>
+                <button class="btn btn_primary" id="share-shareQQ">shareQQ</button>
+                <span class="desc">分享到朋友圈</span>
+                <button class="btn btn_primary" id="share-shareTimeline">shareTimeline</button>
+                <span class="desc">分享到微信好友</span>
+                <button class="btn btn_primary" id="share-shareAppMessage">shareAppMessage</button>
+
+                <h3 id="menu-image">图像接口</h3>
+                <span class="desc">拍照或从手机相册中选图接口</span>
+                <button class="btn btn_primary" id="image-chooseImage">chooseImage</button>
+                <span class="desc">预览图片接口</span>
+                <button class="btn btn_primary" id="image-previewImage">previewImage</button>
+                <span class="desc">上传图片接口</span>
+                <button class="btn btn_primary" id="image-uploadImage">uploadImage</button>
+                <span class="desc">下载图片接口</span>
+                <button class="btn btn_primary" id="image-downloadImage">downloadImage</button>
+
+                <h3 id="menu-audio">音频接口</h3>
+                <span class="desc">开始录音接口</span>
+                <button class="btn btn_primary" id="audio-startRecord">startRecord</button>
+                <span class="desc">停止录音接口</span>
+                <button class="btn btn_primary" id="audio-stopRecord">stopRecord</button>
+                <span class="desc">播放语音接口</span>
+                <button class="btn btn_primary" id="audio-playVoice">playVoice</button>
+                <span class="desc">暂停播放接口</span>
+                <button class="btn btn_primary" id="audio-pauseVoice">pauseVoice</button>
+                <span class="desc">停止播放接口</span>
+                <button class="btn btn_primary" id="audio-stopVoice">stopVoice</button>
+                <span class="desc">上传语音接口</span>
+                <button class="btn btn_primary" id="audio-uploadVoice">uploadVoice</button>
+                <span class="desc">下载语音接口</span>
+                <button class="btn btn_primary" id="audio-downloadVoice">downloadVoice</button>
+
+                <h3 id="menu-xg">信鸽接口</h3>
+                <span class="desc">注册设备</span>
+                <button class="btn btn_primary" id="xg-registerPush">registerPush</button>
+                <span class="desc">相关配置</span>
+                <button class="btn btn_primary" id="xg-config">config</button>
+                <span class="desc">反注册设备</span>
+                <button class="btn btn_primary" id="xg-unregisterPush">unregisterPush</button>
+                <span class="desc">设置标签</span>
+                <button class="btn btn_primary" id="xg-setTag">setTag</button>
+                <span class="desc">删除标签</span>
+                <button class="btn btn_primary" id="xg-delTag">delTag</button>
+                <span class="desc">添加本地通知</span>
+                <button class="btn btn_primary" id="xg-addLocalNotification">addLocalNotification</button>
+                <span class="desc">删除本地通知</span>
+                <button class="btn btn_primary" id="xg-clearLocalNotifications">clearLocalNotifications</button>
+                <span class="desc">清除已展示通知</span>
+                <button class="btn btn_primary" id="xg-cancelNotification">cancelNotification</button>
+                <span class="desc">设置JS回调</span>
+                <button class="btn btn_primary" id="xg-setListener">setListener</button>
+
+                <h3 id="menu-device">设备信息接口</h3>
+                <span class="desc">获取设备信息</span>
+                <button class="btn btn_primary" id="device-getDeviceInfo">getDeviceInfo</button>
+                <span class="desc">获取网络信息</span>
+                <button class="btn btn_primary" id="device-getNetworkType">getNetworkType</button>
+
+                <h3 id="menu-ui">UI接口</h3>
+                <span class="desc">设置标题</span>
+                <button class="btn btn_primary" id="ui-setTitle">setTitle</button>
+                <span class="desc">显示关闭按钮</span>
+                <button class="btn btn_primary" id="ui-showCloseButton">showCloseButton</button>
+                <span class="desc">隐藏关闭按钮</span>
+                <button class="btn btn_primary" id="ui-hideCloseButton">hideCloseButton</button>
+                <span class="desc">显示菜单</span>
+                <button class="btn btn_primary" id="ui-showOptionsMenu">showOptionsMenu</button>
+                <span class="desc">隐藏菜单</span>
+                <button class="btn btn_primary" id="ui-hideOptionsMenu">hideOptionsMenu</button>
+                <span class="desc">设置菜单列表</span>
+                <button class="btn btn_primary" id="ui-setOptionsMenus">setOptionsMenus</button>
+                <span class="desc">菜单点击事件</span>
+                <button class="btn btn_primary" id="ui-onOptionsMenuClick">onOptionsMenuClick</button>
+
+                <h3 id="menu-app">App信息接口</h3>
+                <span class="desc">App是否安装</span>
+                <button class="btn btn_primary" id="app-isAppInstalled">isAppInstalled</button>
+                <span class="desc">启动App</span>
+                <button class="btn btn_primary" id="app-launchApp">launchApp</button>
+
+                <h3 id="menu-location">位置信息接口</h3>
+                <span class="desc">打开地图信息</span>
+                <button class="btn btn_primary" id="location-openLocation">openLocation</button>
+                <span class="desc">获取位置信息</span>
+                <button class="btn btn_primary" id="location-getLocation">getLocation</button>
+            </div>
+        </div>
+    </body>
+    <script src="sdk.js"></script>
+    <script src="demo.js"></script>
+</html>

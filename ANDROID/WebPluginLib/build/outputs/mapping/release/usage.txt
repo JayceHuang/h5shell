@@ -1,0 +1,2392 @@
+com.jg.JgBlockChecked
+com.jg.JgClassChecked
+com.jg.JgMethodChecked
+com.jg.JgStmtChecked
+com.jg.Level
+com.lzy.imagepicker.BuildConfig
+com.lzy.imagepicker.ImageDataSource:
+    public static final int LOADER_ALL
+    public static final int LOADER_CATEGORY
+com.lzy.imagepicker.ImagePicker:
+    public static final int REQUEST_CODE_TAKE
+    public static final int REQUEST_CODE_CROP
+    public static final int REQUEST_CODE_PREVIEW
+    public static final int RESULT_CODE_ITEMS
+    public static final int RESULT_CODE_BACK
+    public static final int ORIGINAL_SIZE_ONLY
+    public static final int COMPRESSED_SIZE_ONLY
+    public static final int ORIGINAL_COMPRESSED_SIZE
+    public static final java.lang.String EXTRA_RESULT_ITEMS
+    public static final java.lang.String EXTRA_RESULT_IS_ORGIN
+    public static final java.lang.String EXTRA_SELECTED_IMAGE_POSITION
+    public static final java.lang.String EXTRA_IMAGE_ITEMS
+    public android.graphics.Bitmap cropBitmap
+    96:97:public void setMultiMode(boolean)
+    112:113:public void setCrop(boolean)
+    136:137:public void setSaveRectangle(boolean)
+    152:153:public void setOutPutX(int)
+    160:161:public void setOutPutY(int)
+    168:169:public void setFocusWidth(int)
+    176:177:public void setFocusHeight(int)
+    191:192:public void setCropCacheFolder(java.io.File)
+    199:200:public void setImageLoader(com.lzy.imagepicker.loader.ImageLoader)
+    207:208:public void setStyle(com.lzy.imagepicker.view.CropImageView$Style)
+    211:211:public java.util.List getImageFolders()
+    219:219:public int getCurrentImageFolderPosition()
+com.lzy.imagepicker.MResource:
+    10:10:public MResource()
+com.lzy.imagepicker.Utils:
+    24:24:public Utils()
+com.lzy.imagepicker.adapter.ImageGridAdapter:
+    private static final int ITEM_TYPE_CAMERA
+    private static final int ITEM_TYPE_NORMAL
+com.lzy.imagepicker.adapter.ImagePageAdapter:
+    47:48:public void setData(java.util.ArrayList)
+com.lzy.imagepicker.ui.ImageGridActivity:
+    public static final int REQUEST_PERMISSION_STORAGE
+    public static final int REQUEST_PERMISSION_CAMERA
+com.lzy.imagepicker.ui.ImagePreviewActivity:
+    public static final java.lang.String ISORIGIN
+    public static final java.lang.String IS_CAMERA_PREVIEW
+com.lzy.imagepicker.view.CropImageView:
+    private static final float MAX_SCALE
+    private static final int NONE
+    private static final int DRAG
+    private static final int ZOOM
+    private static final int ROTATE
+    private static final int ZOOM_OR_ROTATE
+    private static final int SAVE_SUCCESS
+    private static final int SAVE_ERROR
+    627:627:public int getFocusWidth()
+    638:638:public int getFocusHeight()
+    649:649:public int getMaskColor()
+    654:656:public void setMaskColor(int)
+    660:660:public int getFocusColor()
+    665:667:public void setBorderColor(int)
+    671:671:public float getBorderWidth()
+    676:678:public void setBorderWidth(int)
+    688:688:public com.lzy.imagepicker.view.CropImageView$Style getFocusStyle()
+com.lzy.imagepicker.view.SystemBarTintManager:
+    public static final int DEFAULT_TINT_COLOR
+    private boolean mNavBarTintEnabled
+    152:156:public void setNavigationBarTintEnabled(boolean)
+    164:166:public void setTintColor(int)
+    174:176:public void setTintResource(int)
+    184:186:public void setTintDrawable(android.graphics.drawable.Drawable)
+    194:196:public void setTintAlpha(float)
+    204:207:public void setStatusBarTintColor(int)
+    227:230:public void setStatusBarTintDrawable(android.graphics.drawable.Drawable)
+    239:242:public void setStatusBarAlpha(float)
+    250:253:public void setNavigationBarTintColor(int)
+    261:264:public void setNavigationBarTintResource(int)
+    273:276:public void setNavigationBarTintDrawable(android.graphics.drawable.Drawable)
+    285:288:public void setNavigationBarAlpha(float)
+    296:296:public com.lzy.imagepicker.view.SystemBarTintManager$SystemBarConfig getConfig()
+    305:305:public boolean isStatusBarTintEnabled()
+    314:314:public boolean isNavBarTintEnabled()
+com.lzy.imagepicker.view.SystemBarTintManager$SystemBarConfig:
+    private static final java.lang.String STATUS_BAR_HEIGHT_RES_NAME
+    private static final java.lang.String NAV_BAR_HEIGHT_RES_NAME
+    private static final java.lang.String NAV_BAR_HEIGHT_LANDSCAPE_RES_NAME
+    private static final java.lang.String NAV_BAR_WIDTH_RES_NAME
+    private static final java.lang.String SHOW_NAV_BAR_RES_NAME
+    489:489:public int getActionBarHeight()
+    528:528:public int getPixelInsetTop(boolean)
+    537:540:public int getPixelInsetBottom()
+    550:553:public int getPixelInsetRight()
+com.nostra13.universalimageloader.cache.disc.DiskCache:
+    public abstract java.io.File getDirectory()
+    public abstract boolean remove(java.lang.String)
+    public abstract void close()
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.disc.impl.BaseDiskCache:
+    public static final int DEFAULT_BUFFER_SIZE
+    public static final int DEFAULT_COMPRESS_QUALITY
+    private static final java.lang.String ERROR_ARG_NULL
+    private static final java.lang.String TEMP_IMAGE_POSTFIX
+    public BaseDiskCache(java.io.File)
+    public BaseDiskCache(java.io.File,java.io.File)
+    public java.io.File getDirectory()
+    public boolean remove(java.lang.String)
+    public void close()
+    public void clear()
+    public void setBufferSize(int)
+    public void setCompressFormat(android.graphics.Bitmap$CompressFormat)
+    public void setCompressQuality(int)
+com.nostra13.universalimageloader.cache.disc.impl.LimitedAgeDiskCache
+com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache:
+    public UnlimitedDiskCache(java.io.File)
+    public UnlimitedDiskCache(java.io.File,java.io.File)
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache:
+    static final java.lang.String JOURNAL_FILE
+    static final java.lang.String JOURNAL_FILE_TEMP
+    static final java.lang.String JOURNAL_FILE_BACKUP
+    static final java.lang.String MAGIC
+    static final java.lang.String VERSION_1
+    static final long ANY_SEQUENCE_NUMBER
+    private static final java.lang.String CLEAN
+    private static final java.lang.String DIRTY
+    private static final java.lang.String REMOVE
+    private static final java.lang.String READ
+    public java.io.File getDirectory()
+    public synchronized long getMaxSize()
+    public synchronized int getMaxFileCount()
+    public synchronized void setMaxSize(long)
+    public synchronized long size()
+    public synchronized long fileCount()
+    public synchronized boolean isClosed()
+    public synchronized void flush()
+    private static java.lang.String inputStreamToString(java.io.InputStream)
+    static synthetic com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor access$1700(com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache,java.lang.String,long)
+    static synthetic java.lang.String access$1800(java.io.InputStream)
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor:
+    public java.io.InputStream newInputStream(int)
+    public java.lang.String getString(int)
+    public void set(int,java.lang.String)
+    public void abortUnlessCommitted()
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Snapshot:
+    public com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache$Editor edit()
+    public java.io.InputStream getInputStream(int)
+    public java.lang.String getString(int)
+    public long getLength(int)
+com.nostra13.universalimageloader.cache.disc.impl.ext.LruDiskCache:
+    public static final int DEFAULT_BUFFER_SIZE
+    public static final int DEFAULT_COMPRESS_QUALITY
+    private static final java.lang.String ERROR_ARG_NULL
+    private static final java.lang.String ERROR_ARG_NEGATIVE
+    public LruDiskCache(java.io.File,com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator,long)
+    public java.io.File getDirectory()
+    public boolean remove(java.lang.String)
+    public void close()
+    public void clear()
+    public void setBufferSize(int)
+    public void setCompressFormat(android.graphics.Bitmap$CompressFormat)
+    public void setCompressQuality(int)
+com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader:
+    private static final byte CR
+    private static final byte LF
+com.nostra13.universalimageloader.cache.disc.impl.ext.Util:
+    private Util()
+    static java.lang.String readFully(java.io.Reader)
+com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator
+com.nostra13.universalimageloader.cache.memory.BaseMemoryCache
+com.nostra13.universalimageloader.cache.memory.LimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.MemoryCache:
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.memory.impl.FIFOLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.FuzzyKeyMemoryCache:
+    public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LargestLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LimitedAgeMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache:
+    public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache
+com.nostra13.universalimageloader.core.DefaultConfigurationFactory:
+    public DefaultConfigurationFactory()
+com.nostra13.universalimageloader.core.DisplayBitmapTask:
+    private static final java.lang.String LOG_DISPLAY_IMAGE_IN_IMAGEAWARE
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+com.nostra13.universalimageloader.core.DisplayImageOptions$Builder:
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showStubImage(int)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnLoading(android.graphics.drawable.Drawable)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageForEmptyUri(int)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageForEmptyUri(android.graphics.drawable.Drawable)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnFail(android.graphics.drawable.Drawable)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading()
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading(boolean)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheInMemory()
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheOnDisc()
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheOnDisc(boolean)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder delayBeforeLoading(int)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder extraForDownloader(java.lang.Object)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder considerExifParams(boolean)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder preProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder postProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder displayer(com.nostra13.universalimageloader.core.display.BitmapDisplayer)
+    com.nostra13.universalimageloader.core.DisplayImageOptions$Builder syncLoading(boolean)
+    public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder handler(android.os.Handler)
+com.nostra13.universalimageloader.core.ImageLoader:
+    static final java.lang.String LOG_INIT_CONFIG
+    static final java.lang.String LOG_DESTROY
+    static final java.lang.String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE
+    private static final java.lang.String WARNING_RE_INIT_CONFIG
+    private static final java.lang.String ERROR_WRONG_ARGUMENTS
+    private static final java.lang.String ERROR_NOT_INIT
+    private static final java.lang.String ERROR_INIT_CONFIG_WITH_NULL
+    public boolean isInited()
+    public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void displayImage(java.lang.String,android.widget.ImageView)
+    public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.listener.ImageLoadingListener,com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener)
+    public android.graphics.Bitmap loadImageSync(java.lang.String)
+    public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize)
+    public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    public void setDefaultLoadingListener(com.nostra13.universalimageloader.core.listener.ImageLoadingListener)
+    public com.nostra13.universalimageloader.cache.memory.MemoryCache getMemoryCache()
+    public void clearMemoryCache()
+    public com.nostra13.universalimageloader.cache.disc.DiskCache getDiscCache()
+    public com.nostra13.universalimageloader.cache.disc.DiskCache getDiskCache()
+    public void clearDiscCache()
+    public void clearDiskCache()
+    public java.lang.String getLoadingUriForView(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    public java.lang.String getLoadingUriForView(android.widget.ImageView)
+    public void cancelDisplayTask(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    public void cancelDisplayTask(android.widget.ImageView)
+    public void denyNetworkDownloads(boolean)
+    public void handleSlowNetwork(boolean)
+    public void pause()
+    public void resume()
+    public void stop()
+    public void destroy()
+com.nostra13.universalimageloader.core.ImageLoader$1
+com.nostra13.universalimageloader.core.ImageLoader$SyncImageLoadingListener
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration:
+    public static com.nostra13.universalimageloader.core.ImageLoaderConfiguration createDefault(android.content.Context)
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder:
+    private static final java.lang.String WARNING_OVERLAP_DISK_CACHE_PARAMS
+    private static final java.lang.String WARNING_OVERLAP_DISK_CACHE_NAME_GENERATOR
+    private static final java.lang.String WARNING_OVERLAP_MEMORY_CACHE
+    private static final java.lang.String WARNING_OVERLAP_EXECUTOR
+    public static final int DEFAULT_THREAD_POOL_SIZE
+    public static final int DEFAULT_THREAD_PRIORITY
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheExtraOptions(int,int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheExtraOptions(int,int,com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheExtraOptions(int,int,com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutor(java.util.concurrent.Executor)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutorForCachedImages(java.util.concurrent.Executor)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder threadPoolSize(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder threadPriority(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder denyCacheImageMultipleSizesInMemory()
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder tasksProcessingOrder(com.nostra13.universalimageloader.core.assist.QueueProcessingType)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheSize(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCache(com.nostra13.universalimageloader.cache.memory.MemoryCache)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheSize(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheSize(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheFileCount(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheFileCount(int)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheFileNameGenerator(com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCacheFileNameGenerator(com.nostra13.universalimageloader.cache.disc.naming.FileNameGenerator)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCache(com.nostra13.universalimageloader.cache.disc.DiskCache)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder diskCache(com.nostra13.universalimageloader.cache.disc.DiskCache)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder imageDownloader(com.nostra13.universalimageloader.core.download.ImageDownloader)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder imageDecoder(com.nostra13.universalimageloader.core.decode.ImageDecoder)
+    public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder writeDebugLogs()
+com.nostra13.universalimageloader.core.ImageLoaderEngine:
+    void denyNetworkDownloads(boolean)
+    void handleSlowNetwork(boolean)
+    void pause()
+    void resume()
+    void stop()
+com.nostra13.universalimageloader.core.LoadAndDisplayImageTask:
+    private static final java.lang.String LOG_WAITING_FOR_RESUME
+    private static final java.lang.String LOG_RESUME_AFTER_PAUSE
+    private static final java.lang.String LOG_DELAY_BEFORE_LOADING
+    private static final java.lang.String LOG_START_DISPLAY_IMAGE_TASK
+    private static final java.lang.String LOG_WAITING_FOR_IMAGE_LOADED
+    private static final java.lang.String LOG_GET_IMAGE_FROM_MEMORY_CACHE_AFTER_WAITING
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_NETWORK
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_DISK_CACHE
+    private static final java.lang.String LOG_RESIZE_CACHED_IMAGE_FILE
+    private static final java.lang.String LOG_PREPROCESS_IMAGE
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+    private static final java.lang.String LOG_CACHE_IMAGE_IN_MEMORY
+    private static final java.lang.String LOG_CACHE_IMAGE_ON_DISK
+    private static final java.lang.String LOG_PROCESS_IMAGE_BEFORE_CACHE_ON_DISK
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+    private static final java.lang.String LOG_TASK_INTERRUPTED
+    private static final java.lang.String ERROR_NO_IMAGE_STREAM
+    private static final java.lang.String ERROR_PRE_PROCESSOR_NULL
+    private static final java.lang.String ERROR_POST_PROCESSOR_NULL
+    private static final java.lang.String ERROR_PROCESSOR_FOR_DISK_CACHE_NULL
+com.nostra13.universalimageloader.core.ProcessAndDisplayImageTask:
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+com.nostra13.universalimageloader.core.assist.FailReason:
+    public com.nostra13.universalimageloader.core.assist.FailReason$FailType getType()
+com.nostra13.universalimageloader.core.assist.ImageSize:
+    private static final int TO_STRING_MAX_LENGHT
+    private static final java.lang.String SEPARATOR
+com.nostra13.universalimageloader.core.assist.deque.BlockingDeque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract void putFirst(java.lang.Object)
+    public abstract void putLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract boolean offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object takeFirst()
+    public abstract java.lang.Object takeLast()
+    public abstract java.lang.Object pollFirst(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract void put(java.lang.Object)
+    public abstract boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object take()
+    public abstract java.lang.Object poll(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract void push(java.lang.Object)
+com.nostra13.universalimageloader.core.assist.deque.Deque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract java.lang.Object removeFirst()
+    public abstract java.lang.Object removeLast()
+    public abstract java.lang.Object pollFirst()
+    public abstract java.lang.Object pollLast()
+    public abstract java.lang.Object getFirst()
+    public abstract java.lang.Object getLast()
+    public abstract java.lang.Object peekFirst()
+    public abstract java.lang.Object peekLast()
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract void push(java.lang.Object)
+    public abstract java.lang.Object pop()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract java.util.Iterator descendingIterator()
+com.nostra13.universalimageloader.core.decode.BaseImageDecoder:
+    protected static final java.lang.String LOG_SUBSAMPLE_IMAGE
+    protected static final java.lang.String LOG_SCALE_IMAGE
+    protected static final java.lang.String LOG_ROTATE_IMAGE
+    protected static final java.lang.String LOG_FLIP_IMAGE
+    protected static final java.lang.String ERROR_NO_IMAGE_STREAM
+    protected static final java.lang.String ERROR_CANT_DECODE_IMAGE
+com.nostra13.universalimageloader.core.decode.ImageDecodingInfo:
+    public java.lang.String getOriginalImageUri()
+com.nostra13.universalimageloader.core.display.CircleBitmapDisplayer
+com.nostra13.universalimageloader.core.display.CircleBitmapDisplayer$CircleDrawable
+com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer$RoundedDrawable
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer$RoundedVignetteDrawable
+com.nostra13.universalimageloader.core.download.BaseImageDownloader:
+    public static final int DEFAULT_HTTP_CONNECT_TIMEOUT
+    public static final int DEFAULT_HTTP_READ_TIMEOUT
+    protected static final int BUFFER_SIZE
+    protected static final java.lang.String ALLOWED_URI_CHARS
+    protected static final int MAX_REDIRECT_COUNT
+    protected static final java.lang.String CONTENT_CONTACTS_URI_PREFIX
+    private static final java.lang.String ERROR_UNSUPPORTED_SCHEME
+com.nostra13.universalimageloader.core.imageaware.ImageViewAware:
+    public ImageViewAware(android.widget.ImageView,boolean)
+com.nostra13.universalimageloader.core.imageaware.NonViewAware
+com.nostra13.universalimageloader.core.imageaware.ViewAware:
+    public static final java.lang.String WARN_CANT_SET_DRAWABLE
+    public static final java.lang.String WARN_CANT_SET_BITMAP
+com.nostra13.universalimageloader.core.listener.PauseOnScrollListener
+com.nostra13.universalimageloader.utils.DiskCacheUtils
+com.nostra13.universalimageloader.utils.ImageSizeUtils:
+    private static final int DEFAULT_MAX_BITMAP_DIMENSION
+    private ImageSizeUtils()
+com.nostra13.universalimageloader.utils.IoUtils:
+    public static final int DEFAULT_BUFFER_SIZE
+    public static final int DEFAULT_IMAGE_TOTAL_SIZE
+    public static final int CONTINUE_LOADING_PERCENTAGE
+    private IoUtils()
+    public static boolean copyStream(java.io.InputStream,java.io.OutputStream,com.nostra13.universalimageloader.utils.IoUtils$CopyListener)
+com.nostra13.universalimageloader.utils.L:
+    private static final java.lang.String LOG_FORMAT
+    private L()
+    public static void enableLogging()
+    public static void disableLogging()
+    public static void writeLogs(boolean)
+    public static varargs void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.nostra13.universalimageloader.utils.MemoryCacheUtils:
+    private static final java.lang.String URI_AND_SIZE_SEPARATOR
+    private static final java.lang.String WIDTH_AND_HEIGHT_SEPARATOR
+    private MemoryCacheUtils()
+    public static java.util.List findCachedBitmapsForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+    public static java.util.List findCacheKeysForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+    public static void removeFromCache(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCache)
+com.nostra13.universalimageloader.utils.StorageUtils:
+    private static final java.lang.String EXTERNAL_STORAGE_PERMISSION
+    private static final java.lang.String INDIVIDUAL_DIR_NAME
+    private StorageUtils()
+    public static java.io.File getOwnCacheDirectory(android.content.Context,java.lang.String)
+    public static java.io.File getOwnCacheDirectory(android.content.Context,java.lang.String,boolean)
+com.polites.android.GestureImageView:
+    public void setGestureImageViewListener(com.polites.android.h)
+com.tencent.connect.UserInfo:
+    public static final java.lang.String GRAPH_OPEN_ID
+    26:27:public UserInfo(android.content.Context,com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+    37:41:public void getVipUserInfo(com.tencent.tauth.IUiListener)
+    44:48:public void getVipUserRichInfo(com.tencent.tauth.IUiListener)
+    55:60:public void getTenPayAddr(com.tencent.tauth.IUiListener)
+    67:71:public void getOpenId(com.tencent.tauth.IUiListener)
+com.tencent.connect.a.a:
+    97:109:public static void d(android.content.Context,com.tencent.connect.auth.QQToken)
+com.tencent.connect.auth.AuthAgent:
+    public static final java.lang.String SECURE_LIB_FILE_NAME
+    public static final java.lang.String SECURE_LIB_NAME
+    private java.lang.String b
+    161:161:public int doLogin(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+    165:185:public int doLogin(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,boolean,android.support.v4.app.Fragment)
+    196:253:private int a(boolean,com.tencent.tauth.IUiListener)
+    257:301:private boolean a(android.app.Activity,android.support.v4.app.Fragment,boolean)
+    310:329:protected void a(com.tencent.tauth.IUiListener)
+    337:343:protected void b(com.tencent.tauth.IUiListener)
+    64:64:static synthetic com.tencent.connect.auth.QQToken a(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic com.tencent.connect.auth.QQToken b(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic com.tencent.connect.auth.QQToken c(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic com.tencent.connect.auth.QQToken d(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic android.app.Activity e(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic com.tencent.connect.auth.QQToken f(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic android.os.Bundle g(com.tencent.connect.auth.AuthAgent)
+    64:64:static synthetic com.tencent.connect.auth.QQToken h(com.tencent.connect.auth.AuthAgent)
+com.tencent.connect.auth.AuthAgent$1
+com.tencent.connect.auth.AuthAgent$1$1
+com.tencent.connect.auth.AuthAgent$CheckLoginListener
+com.tencent.connect.auth.AuthAgent$FeedConfirmListener
+com.tencent.connect.auth.AuthAgent$FeedConfirmListener$1
+com.tencent.connect.auth.AuthAgent$FeedConfirmListener$2
+com.tencent.connect.auth.AuthAgent$FeedConfirmListener$3
+com.tencent.connect.auth.AuthAgent$FeedConfirmListener$ButtonListener
+com.tencent.connect.auth.AuthAgent$TokenListener
+com.tencent.connect.auth.AuthConstants
+com.tencent.connect.auth.AuthDialog:
+    115:138:public AuthDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken)
+    639:648:private static void b(android.content.Context,java.lang.String)
+    61:61:static synthetic void a(android.content.Context,java.lang.String)
+com.tencent.connect.auth.AuthDialog$OnTimeListener:
+    java.lang.String b
+    202:207:public AuthDialog$OnTimeListener(com.tencent.connect.auth.AuthDialog,java.lang.String,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener)
+    211:218:private void a(java.lang.String)
+    195:195:static synthetic void a(com.tencent.connect.auth.AuthDialog$OnTimeListener,java.lang.String)
+com.tencent.connect.auth.AuthDialog$THandler
+com.tencent.connect.auth.QQAuth:
+    102:103:public int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+    126:127:public int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+    151:153:public int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+    166:192:private int a(android.app.Activity,android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String)
+    209:224:public int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+    247:248:public int reAuth(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+    255:256:public void reportDAU()
+    264:265:public void checkLogin(com.tencent.tauth.IUiListener)
+    275:284:public void logout(android.content.Context)
+    306:308:public void setAccessToken(java.lang.String,java.lang.String)
+    317:320:public boolean isSessionValid()
+    331:335:public void setOpenId(android.content.Context,java.lang.String)
+    358:361:public boolean onActivityResult(int,int,android.content.Intent)
+com.tencent.connect.auth.QQToken:
+    public static final int AUTH_WEB
+    public static final int AUTH_QQ
+    public static final int AUTH_QZONE
+    27:28:public void setAppId(java.lang.String)
+    53:53:public int getAuthSource()
+    57:58:public void setAuthSource(int)
+    61:61:public long getExpireTimeInSecond()
+com.tencent.connect.avatar.QQAvatar
+com.tencent.connect.common.AssistActivity:
+    private static final java.lang.String RESTART_FLAG
+    private static final java.lang.String TAG
+    31:32:public static android.content.Intent getAssistActivityIntent(android.content.Context)
+com.tencent.connect.common.BaseApi:
+    private static final java.lang.String KEY_REQUEST_CODE
+    protected static final java.lang.String DEFAULT_PF
+    protected static final java.lang.String PREFERENCE_PF
+    protected static final java.lang.String ACTIVITY_ENCRY_TOKEN
+    protected static final java.lang.String ACTIVITY_AGENT
+    protected static final java.lang.String ACTION_CHECK_TOKEN
+    protected static final java.lang.String PARAM_ENCRY_EOKEN
+    private static final int MSG_COMPLETE
+    protected static final java.lang.String VERSION
+    protected static final java.lang.String PLATFORM
+    protected android.app.ProgressDialog mProgressDialog
+    226:233:protected java.lang.String getCommonDownloadQQUrl(java.lang.String)
+    237:263:protected android.os.Bundle composeActivityParams()
+    313:319:protected void startAssitActivity(android.support.v4.app.Fragment,com.tencent.tauth.IUiListener)
+    343:351:protected android.content.Intent getTargetActivityIntent(java.lang.String)
+    355:364:protected void handleDownloadLastestQQ(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    368:376:protected void showProgressDialog(android.content.Context,java.lang.String,java.lang.String)
+    379:379:protected android.content.Intent getAgentIntent()
+    384:401:protected android.content.Intent getAgentIntentWithTarget(java.lang.String)
+com.tencent.connect.common.Constants
+com.tencent.connect.dataprovider.CallbackManager
+com.tencent.connect.dataprovider.Constants
+com.tencent.connect.dataprovider.DataType:
+    public static final int CONTENT_AND_IMAGE_PATH
+    public static final int CONTENT_AND_VIDEO_PATH
+    public static final int CONTENT_ONLY
+    6:55:public DataType()
+com.tencent.connect.dataprovider.ErrorCode
+com.tencent.connect.share.QQShare:
+    public static final int QQ_SHARE_TITLE_MAX_LENGTH
+    public static final int QQ_SHARE_SUMMARY_MAX_LENGTH
+    public static final java.lang.String SHARE_TO_QQ_IMAGE_URL
+    public static final java.lang.String SHARE_TO_QQ_IMAGE_LOCAL_URL
+    public static final java.lang.String SHARE_TO_QQ_TITLE
+    public static final java.lang.String SHARE_TO_QQ_SUMMARY
+    public static final java.lang.String SHARE_TO_QQ_SITE
+    public static final java.lang.String SHARE_TO_QQ_TARGET_URL
+    public static final java.lang.String SHARE_TO_QQ_APP_NAME
+    public static final java.lang.String SHARE_TO_QQ_AUDIO_URL
+    public static final java.lang.String SHARE_TO_QQ_KEY_TYPE
+    public static final java.lang.String SHARE_TO_QQ_EXT_STR
+    public static final java.lang.String SHARE_TO_QQ_EXT_INT
+    public static final int SHARE_TO_QQ_FLAG_QZONE_AUTO_OPEN
+    public static final int SHARE_TO_QQ_FLAG_QZONE_ITEM_HIDE
+    public static final int SHARE_TO_QQ_TYPE_DEFAULT
+    public static final int SHARE_TO_QQ_TYPE_AUDIO
+    public static final int SHARE_TO_QQ_TYPE_IMAGE
+    public static final int SHARE_TO_QQ_TYPE_APP
+com.tencent.connect.share.QzoneShare:
+    public static final java.lang.String SHARE_TO_QZONE_KEY_TYPE
+    public static final int SHARE_TO_QZONE_TYPE_NO_TYPE
+    public static final int SHARE_TO_QZONE_TYPE_IMAGE_TEXT
+    public static final int SHARE_TO_QZONE_TYPE_IMAGE
+    public static final int SHARE_TO_QZONE_TYPE_APP
+    public static final java.lang.String SHARE_TO_QQ_IMAGE_URL
+    public static final java.lang.String SHARE_TO_QQ_IMAGE_LOCAL_URL
+    public static final java.lang.String SHARE_TO_QQ_TITLE
+    public static final java.lang.String SHARE_TO_QQ_SUMMARY
+    public static final java.lang.String SHARE_TO_QQ_SITE
+    public static final java.lang.String SHARE_TO_QQ_TARGET_URL
+    public static final java.lang.String SHARE_TO_QQ_APP_NAME
+    public static final java.lang.String SHARE_TO_QQ_AUDIO_URL
+    public static final java.lang.String SHARE_TO_QQ_EXT_STR
+    public static final java.lang.String SHARE_TO_QQ_EXT_INT
+com.tencent.doh.BuildConfig
+com.tencent.doh.pluginframework.annotation.Public
+com.tencent.doh.pluginframework.util.ApkUtils:
+    14:14:public ApkUtils()
+    54:66:public static java.lang.String getApplicationName(android.content.Context)
+com.tencent.doh.pluginframework.util.DateUtils:
+    public static final java.lang.String DEFAULT_DATE_TIME_FORMAT
+    public static final java.lang.String DEFAULT_FORMAT_DATE
+    public static final java.lang.String DEFAULT_FORMAT_TIME
+    57:58:private DateUtils()
+    67:67:public static java.lang.String getDateTimeFromMillis(long)
+    76:76:public static java.lang.String getDateFromMillis(long)
+    86:86:public static java.lang.String getDateTimeFormat(java.util.Date)
+    98:98:public static java.lang.String getDateFormat(int,int,int)
+    116:116:public static java.lang.String getTimeFormat(java.util.Date)
+    126:128:public static java.lang.String dateFormat(java.lang.String,java.lang.String)
+    138:139:public static java.lang.String dateFormat(java.util.Date,java.lang.String)
+    162:162:public static java.util.Date getDateByDateTimeFormat(java.lang.String)
+    171:171:public static java.util.Date getDateByDateFormat(java.lang.String)
+    181:181:public static java.util.Date getDateByFormat(java.lang.String,java.lang.String)
+    192:199:private static java.util.Date getDateByFormat(java.lang.String,java.text.SimpleDateFormat)
+    210:212:public static java.util.Date getDate(int,int,int)
+    223:224:public static long getIntervalDays(java.lang.String,java.lang.String)
+    232:233:public static int getCurrentYear()
+    241:242:public static int getCurrentMonth()
+    250:251:public static int getDayOfMonth()
+    259:260:public static java.lang.String getToday()
+    268:270:public static java.lang.String getYesterday()
+    278:280:public static java.lang.String getBeforeYesterday()
+    302:303:public static java.lang.String getCalcDateFormat(java.lang.String,int)
+    314:317:public static java.util.Date getCalcDate(java.util.Date,int)
+    329:335:public static java.util.Date getCalcTime(java.util.Date,int,int,int)
+    351:353:public static java.util.Date getDate(int,int,int,int,int,int)
+    362:362:public static int[] getYearMonthAndDayFrom(java.lang.String)
+    370:376:public static int[] getYearMonthAndDayFromDate(java.util.Date)
+com.tencent.doh.pluginframework.util.FileUtils:
+    public static final java.lang.String FILE_EXTENSION_SEPARATOR
+    27:28:private FileUtils()
+    58:59:public static boolean hasSdcard()
+    71:71:public static java.lang.String readFile(java.lang.String)
+    82:109:public static java.lang.String readFile(java.lang.String,java.lang.String)
+    122:122:public static java.util.List readFileToList(java.lang.String)
+    133:158:public static java.util.List readFileToList(java.lang.String,java.lang.String)
+    173:190:public static boolean writeFile(java.lang.String,java.lang.String,boolean)
+    206:206:public static boolean writeFile(java.lang.String,java.io.InputStream)
+    220:224:public static boolean writeFile(java.lang.String,java.io.InputStream,boolean)
+    238:238:public static boolean writeFile(java.io.File,java.io.InputStream)
+    252:272:public static boolean writeFile(java.io.File,java.io.InputStream,boolean)
+    286:288:public static boolean copyFile(java.lang.String,java.lang.String)
+    300:315:public static java.util.List getFileNameList(java.lang.String,java.io.FilenameFilter)
+    324:335:public static java.util.List getFileNameList(java.lang.String)
+    345:364:public static java.util.List getFileNameList(java.lang.String,java.lang.String)
+    373:381:public static java.lang.String getFileExtension(java.lang.String)
+    390:392:public static boolean createFile(java.lang.String)
+    401:410:public static boolean createFile(java.io.File)
+    419:424:public static boolean makeDirs(java.lang.String)
+    433:435:public static boolean makeDirs(java.io.File)
+    445:449:public static boolean isFileExist(java.lang.String)
+    483:487:public static java.lang.String getFileName(java.lang.String)
+    497:501:public static java.lang.String getFolderName(java.lang.String)
+    510:514:public static boolean isFolderExist(java.lang.String)
+    524:527:public static boolean deleteFile(java.lang.String)
+    537:559:public static boolean deleteFile(java.io.File)
+com.tencent.doh.pluginframework.util.FileUtils$2
+com.tencent.doh.pluginframework.util.ImageUtils:
+    public static final int WIDTH
+    public static final int HEIGHT
+    18:18:public ImageUtils()
+com.tencent.doh.pluginframework.util.LocationUtils:
+    12:12:public LocationUtils()
+    20:20:public static com.tencent.mapsdk.raster.model.GeoPoint of(double,double)
+    25:26:public static double fmt(double)
+    30:31:public static java.lang.String toString(com.tencent.map.geolocation.TencentGeofence)
+    35:35:public static java.lang.String toString(android.location.Location)
+com.tencent.doh.pluginframework.util.LogUtils:
+    public static final int VERBOSE
+    public static final int DEBUG
+    public static final int INFO
+    public static final int WARN
+    public static final int ERROR
+    private static final java.lang.String LOG_DIR_NAME
+    private static final java.lang.String LOG_FILE_NAME
+    22:22:public LogUtils()
+    119:121:public static void v(java.lang.String,java.lang.String)
+    125:127:public static void v(java.lang.String,java.lang.String,java.lang.Throwable)
+    137:139:public static void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    149:151:public static void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    161:163:public static void w(java.lang.String,java.lang.String,java.lang.Throwable)
+    167:169:public static void w(java.lang.String,java.lang.Throwable)
+    185:187:public static void flush()
+    190:193:public static void setProxy(com.tencent.doh.pluginframework.util.LogUtils$LogProxy)
+    206:225:public static void saveCurrentLogcat(android.content.Context)
+    229:291:private static void saveLogcat(com.tencent.doh.pluginframework.util.LogUtils$LogWriter)
+    294:311:public static java.io.File getLogFile(android.content.Context)
+com.tencent.doh.pluginframework.util.LogUtils$1:
+    81:83:public void v(java.lang.String,java.lang.String)
+    112:112:public void flush()
+com.tencent.doh.pluginframework.util.LogUtils$LogFileWriter
+com.tencent.doh.pluginframework.util.LogUtils$LogProxy:
+    public abstract void v(java.lang.String,java.lang.String)
+    public abstract void flush()
+com.tencent.doh.pluginframework.util.LogUtils$LogWriter
+com.tencent.doh.pluginframework.util.MResource:
+    10:10:public MResource()
+    47:76:public static int[] getIdsByName(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.doh.pluginframework.util.NetworkUtils:
+    private static final java.lang.String TAG
+    public static final java.lang.String APN_NAME_WIFI
+    43:47:public static boolean isWifiConnected(android.content.Context)
+    52:56:public static boolean isMobileConnected(android.content.Context)
+    74:81:public static boolean isNetworkUrl(java.lang.String)
+    141:141:public static com.tencent.doh.pluginframework.util.NetworkUtils$NetworkProxy getProxy(android.content.Context,boolean)
+    145:153:public static com.tencent.doh.pluginframework.util.NetworkUtils$NetworkProxy getProxy(android.content.Context)
+    158:164:private static java.lang.String getProxyHost(android.content.Context)
+    169:186:private static int getProxyPort(android.content.Context)
+    190:195:public static com.tencent.doh.pluginframework.util.NetworkUtils$NetworkProxy getProxyByAPN(android.content.Context)
+    199:234:public static java.lang.String getAPN(android.content.Context)
+    252:268:public static com.tencent.doh.pluginframework.util.NetworkUtils$DNS getDNS(android.content.Context)
+    272:279:private static java.lang.String int32ToIPStr(int)
+    284:284:private static boolean isEmpty(java.lang.String)
+    288:290:private NetworkUtils()
+com.tencent.doh.pluginframework.util.NetworkUtils$DNS
+com.tencent.doh.pluginframework.util.NetworkUtils$NetworkProxy:
+    98:102:final com.tencent.doh.pluginframework.util.NetworkUtils$NetworkProxy copy()
+com.tencent.doh.pluginframework.util.NumberUtils:
+    13:16:public static boolean isValidLong(java.lang.String)
+    22:25:public static boolean isValidInt(java.lang.String)
+    36:39:public static long LongValueOf(java.lang.String,long)
+    51:54:public static int IntegerValueOf(java.lang.String,int)
+    74:77:public static java.lang.String StringValueOf(int)
+    83:86:public static java.lang.String StringValueOf(long)
+com.tencent.doh.pluginframework.util.PackageUtils:
+    private static final java.lang.String CURRENT_UIN
+    16:16:public PackageUtils()
+    92:100:public static java.lang.String checkAppInstalled(android.content.Context,java.lang.String)
+    113:135:public static java.lang.String checkAppInstalledBatch(android.content.Context,java.lang.String)
+    148:170:public static java.lang.String isAppInstalledBatch(android.content.Context,java.lang.String)
+    181:202:public static boolean startAppWithPkgName(android.content.Context,java.lang.String,java.lang.String)
+    213:235:public static java.lang.String getAppsVerionCodeBatch(android.content.Context,java.lang.String)
+com.tencent.doh.pluginframework.util.PlatformUtils
+com.tencent.doh.pluginframework.util.PlatformUtils$VERSION_CODES
+com.tencent.doh.pluginframework.util.PropertyUtils
+com.tencent.doh.pluginframework.util.StorageUtils:
+    private static final int STATE_UNKNOWN
+    private static final int STATE_MOUNTED
+    private static final int STATE_MOUNTED_READ_ONLY
+    private static final int STATE_OTHERS
+    46:48:private StorageUtils()
+    51:52:public static void initiate(android.content.Context)
+    59:59:public static boolean isExternalReadable()
+    69:69:public static boolean isExternalReadable(android.content.Context)
+    77:77:public static boolean isExternalWriteable()
+    103:111:private static boolean isExternalMountedReadOnly(android.content.Context)
+    262:262:public static java.lang.String getExternalCacheDir(android.content.Context,java.lang.String)
+    311:311:public static java.lang.String getExternalCacheDirExt(android.content.Context,java.lang.String)
+    320:338:public static java.lang.String getExternalCacheDirExt(android.content.Context,java.lang.String,boolean)
+    342:347:public static java.lang.String getExternalCacheDirExt(android.content.Context,boolean)
+    354:354:public static java.lang.String getInternalCacheDir(android.content.Context,java.lang.String)
+    387:388:public static java.lang.String getInternalFileDir(android.content.Context,boolean)
+    395:396:public static boolean isInternal(java.lang.String)
+com.tencent.doh.pluginframework.util.StorageUtils$InnerEnvironment:
+    private static final java.lang.String TAG
+    private static final java.lang.String EXTEND_SUFFIX
+com.tencent.doh.pluginframework.util.ThreadManager
+com.tencent.doh.pluginframework.util.ThreadManager$ShowQueueAbortPolicy
+com.tencent.doh.pluginframework.util.TripleDes
+com.tencent.doh.pluginframework.util.Utils:
+    private static final java.lang.String CALLBACK_NAME_HOLDER
+    private static final java.lang.String CALLBACK_PARAM_HOLDER
+    private static final java.lang.String CALL_JS_DEFAULT_TPL
+    92:107:public static java.lang.String checkWiFiActive(android.content.Context)
+    142:144:public static java.lang.String String2HexString(java.lang.String)
+    147:158:public static java.lang.String bytes2HexStr(byte[])
+    232:240:public static java.lang.String getCallbackName(java.lang.String)
+com.tencent.doh.pluginframework.webview.DefaultPluginRuntime:
+    36:36:public java.lang.String getAccount()
+com.tencent.doh.pluginframework.webview.WebViewPluginEngine:
+    private java.lang.String mAppid
+    27:37:public WebViewPluginEngine(com.tencent.doh.pluginframework.webview.DefaultPluginRuntime,com.tencent.doh.pluginframework.Config)
+    58:69:public WebViewPluginEngine(com.tencent.doh.pluginframework.webview.PluginInfo[],com.tencent.doh.pluginframework.webview.DefaultPluginRuntime,java.lang.String,com.tencent.doh.pluginframework.Config)
+    77:84:public void preInitPlugin(java.lang.String[])
+    92:100:public void insertPlugin(com.tencent.doh.pluginframework.webview.PluginInfo[])
+    127:134:public WebViewPluginEngine(com.tencent.doh.pluginframework.webview.DefaultPluginRuntime,java.util.List)
+    230:235:public com.tencent.doh.pluginframework.webview.WebViewPlugin getPluginByClass(java.lang.Class)
+com.tencent.doh.plugins.AudioPlugin:
+    private static final java.lang.String AUDIO_AMR
+    public static final java.lang.String LOCAL_RES_HEADER
+    public static final java.lang.String LOCAL_ID
+    public static final java.lang.String SERVER_ID
+    private static final java.lang.String FILE_EXTENSION_AMR
+    public static final int BITRATE_AMR
+com.tencent.doh.plugins.EventPlugin
+com.tencent.doh.plugins.EventPlugin$1
+com.tencent.doh.plugins.ImagePlugin:
+    public static final byte CODE_OPEN_CAMERA
+    public static final byte CODE_PICK_PHOTO
+    public static final byte CODE_REQUEST_PREVIEW
+    public static final java.lang.String IMAGE_COMPRESSED_DIR
+    public static final java.lang.String LOCAL_RES_HEADER
+    static final java.lang.String CAMERA_PHOTO_PATH
+    static final java.lang.String KEY_GET_PICTURE_PARAM
+    static final java.lang.String KEY_TAKE_PICTURE_PARAM
+    static final int SHOW_ONLY_CAMERA
+    static final int SHOW_ONLY_ALBUM
+    static final int SHOW_CAMERA_ALBUM
+com.tencent.doh.plugins.LocationPlugin:
+    public static final byte LOCATION
+com.tencent.doh.plugins.SensorPlugin
+com.tencent.doh.plugins.SensorPlugin$1
+com.tencent.doh.plugins.SensorPlugin$2
+com.tencent.doh.plugins.SensorPlugin$QQSensorEventListener
+com.tencent.doh.plugins.SensorPlugin$StatusLocationListener
+com.tencent.doh.plugins.SharePlugin:
+    private static final java.lang.String PACKAGE_NAME_QQ
+    private static final java.lang.String PACKAGE_NAME_QZONE
+    public static final java.lang.String KEY_SHARE_APPID
+    public static final java.lang.String KEY_SHARE_APPNAME
+    public static final java.lang.String KEY_SHARE_TITLE
+    public static final java.lang.String KEY_SHARE_CONTENT
+    public static final java.lang.String KEY_SHARE_THUMB
+    public static final java.lang.String ENTRANCE_FROM
+    public static final int ENTRANCE_FROM_SHARE
+    public static final int QQ_NOT_EXIST
+    public static final int WX_NOT_EXIST
+    public static final int USER_CANCEL_SHARE
+    public static final int SHARE_OTHER_ERROR
+    public static final java.lang.String KEY_SHARE_TO_WX_CALLBACK
+    public static final java.lang.String KEY_WX_TITLE
+    public static final java.lang.String KEY_WX_DRAWABLE
+    public static final java.lang.String KEY_WX_URL
+    public static final java.lang.String KEY_WX_DATA_URL
+    public static final java.lang.String KEY_WX_SUMMARY
+    public static final java.lang.String KEY_WX_TYPE
+    public static final java.lang.String KEY_WX_TL_SCENE
+    public static final int KEY_WX_TYPE_LINK
+    public static final int KEY_WX_TYPE_MUSIC
+    public static final int KEY_WX_TYPE_VIDEO
+    private static final int ICON_DOWNLOAD_FINISHED
+    410:426:public void shareToQzone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+    470:500:private android.graphics.Bitmap compressImage(android.graphics.Bitmap)
+com.tencent.doh.plugins.UiPlugin:
+    public static final java.lang.String mDefaultFontJsId
+    public static final java.lang.String mDefaultRefreshJsId
+com.tencent.doh.plugins.XgPushPlugin:
+    public static final java.lang.String KEY_CODE
+    public static final java.lang.String KEY_MSG
+    public static final java.lang.String KEY_DATA
+    public static final java.lang.String KEY_RESULT
+    public static final java.lang.String KEY_UNREGISTER_PUSH_CALLBACK
+    public static final java.lang.String KEY_SET_TAG_CALLBACK
+    public static final java.lang.String KEY_DEL_TAG_CALLBACK
+    public static final java.lang.String KEY_ADD_LOCAL_NOTI_CALLBACK
+    public static final java.lang.String KEY_SET_LISTENER_MSG_CALLBACK
+    public static final java.lang.String KEY_SET_LISTENER_SHOW_CALLBACK
+    public static final java.lang.String KEY_SET_LISTENER_CLICK_CALLBACK
+    public static final java.lang.String KEY_SET_LISTENER_CLEAR_CALLBACK
+    public static final java.lang.String ACTION_UNREGISTER_PUSH
+    public static final java.lang.String ACTION_SET_TAG
+    public static final java.lang.String ACTION_DEL_TAG
+    public static final java.lang.String ACTION_SET_LISTENER_MSG
+    public static final java.lang.String ACTION_SET_LISTENER_SHOW
+    public static final java.lang.String ACTION_SET_LISTENER_CLICK
+    public static final java.lang.String ACTION_SET_LISTENER_CLEAR
+com.tencent.doh.plugins.audio.RecorderManager:
+    public static final java.lang.String AUDIO_DIR
+    public static final int IDLE_STATE
+    public static final int RECORDING_STATE
+    public static final int PLAYING_STATE
+    public static final int PLAYING_PAUSED_STATE
+    public static final int PLAYING_STATE_COMPLETE
+    public static final int STORAGE_ACCESS_ERROR
+    public static final int INTERNAL_ERROR
+    public static final int IN_CALL_RECORD_ERROR
+    public static final int URI_ERROR
+    135:138:public float getPlayProgress()
+    188:191:public void clear()
+com.tencent.doh.plugins.audio.RecorderService:
+    public static final java.lang.String ACTION_NAME
+    public static final int ACTION_INVALID
+    public static final int ACTION_START_RECORDING
+    public static final int ACTION_STOP_RECORDING
+    public static final int ACTION_ENABLE_MONITOR_REMAIN_TIME
+    public static final java.lang.String ACTION_PARAM_PATH
+    public static final java.lang.String RECORDER_SERVICE_BROADCAST_NAME
+    public static final java.lang.String RECORDER_SERVICE_BROADCAST_STATE
+    public static final java.lang.String RECORDER_SERVICE_BROADCAST_ERROR
+com.tencent.doh.plugins.audio.RemainingTimeCalculator:
+    public static final int UNKNOWN_LIMIT
+    public static final int FILE_SIZE_LIMIT
+    public static final int DISK_SPACE_LIMIT
+    private static final int EXTERNAL_STORAGE_BLOCK_THREADHOLD
+com.tencent.doh.plugins.cloud.CloudManager:
+    public static final long SIGN_EXPIRED_SECOND
+    private static final int DOWNLOADER_MAX_CONCURRENT
+    276:281:public void releaseAll()
+com.tencent.doh.plugins.cloud.CloudManager$BatchUploadTask
+com.tencent.doh.plugins.cloud.CloudManager$UploadListener
+com.tencent.doh.plugins.cloud.CloudUtils:
+    19:19:public CloudUtils()
+com.tencent.doh.plugins.cloud.DownloadManager$Singleton:
+    14:14:private DownloadManager$Singleton()
+com.tencent.doh.plugins.cloud.UploadManager:
+    57:79:public int uploadBatchFile(java.util.Set,com.tencent.doh.plugins.cloud.CloudManager$UploadListener)
+    91:120:private com.tencent.upload.task.UploadTask createFileUploadTask(int,com.tencent.doh.plugins.cloud.UploadManager$UploadFileInfo)
+    130:161:private com.tencent.upload.task.UploadTask createPhotoUploadTask(int,com.tencent.doh.plugins.cloud.UploadManager$UploadFileInfo)
+    165:172:private void doUploadFailed(int,java.lang.String,int,java.lang.String)
+    175:185:private void doUploadSucceed(int,java.lang.String,com.tencent.upload.task.data.FileInfo)
+    192:192:private synchronized int createUploadRequestId()
+    196:201:private void doUploadProgress(int,java.lang.String,long,long)
+    19:19:static synthetic void access$100(com.tencent.doh.plugins.cloud.UploadManager,int,java.lang.String,com.tencent.upload.task.data.FileInfo)
+    19:19:static synthetic void access$200(com.tencent.doh.plugins.cloud.UploadManager,int,java.lang.String,long,long)
+    19:19:static synthetic void access$300(com.tencent.doh.plugins.cloud.UploadManager,int,java.lang.String,int,java.lang.String)
+com.tencent.doh.plugins.cloud.UploadManager$1
+com.tencent.doh.plugins.cloud.UploadManager$2
+com.tencent.doh.plugins.cloud.UploadManager$3
+com.tencent.doh.plugins.cloud.UploadManager$Singleton:
+    21:21:private UploadManager$Singleton()
+com.tencent.doh.plugins.cloud.UploadManager$UploadFileInfo
+com.tencent.doh.plugins.cloud.UploadManager$UploadTaskListener
+com.tencent.doh.plugins.login.LoginManager:
+    public static final java.lang.String WX_PACKAGE_NAME
+    public static final int LOGIN_ERROR_NO_NETWORK
+    public static final int LOGIN_ERROR_WX_INSTALL
+    public static final int LOGIN_AUTH_LOGIN_ERROR
+    public static final int LOGIN_AUTH_LOGIN_CANCEL
+    public static final int LOGIN_AUTH_LOGIN_SUCESS
+com.tencent.doh.plugins.login.LoginManager$Singleton:
+    38:38:private LoginManager$Singleton()
+com.tencent.doh.plugins.share.WxShareManager:
+    public static final int SHARE_EVENT_OK
+    public static final int SHARE_EVENT_FAIL
+com.tencent.doh.plugins.share.WxShareManager$Singleton:
+    16:16:private WxShareManager$Singleton()
+com.tencent.doh.plugins.ui.MenuItemInfo:
+    28:29:public void setMenuJsId(java.lang.String)
+    36:37:public void setResId(int)
+    44:45:public void setArgs(java.lang.String)
+    52:53:public void setTitle(java.lang.String)
+com.tencent.doh.plugins.xgpush.receiver.DohPushReceiver:
+    public static final java.lang.String LogTag
+com.tencent.doh.ui.widget.sliderbar.FontSliderBar:
+    private static final java.lang.String TAG
+    private static final int DEFAULT_TICK_COUNT
+    private static final float DEFAULT_TICK_HEIGHT
+    private static final float DEFAULT_BAR_WIDTH
+    private static final int DEFAULT_BAR_COLOR
+    private static final int DEFAULT_TEXT_SIZE
+    private static final int DEFAULT_TEXT_COLOR
+    private static final int DEFAULT_TEXT_PADDING
+    private static final float DEFAULT_THUMB_RADIUS
+    private static final int DEFAULT_THUMB_COLOR_NORMAL
+    private static final int DEFAULT_THUMB_COLOR_PRESSED
+    176:177:public com.tencent.doh.ui.widget.sliderbar.FontSliderBar setBarWeight(float)
+    250:250:public int getCurrentIndex()
+com.tencent.doh.ui.widget.sliderbar.Thumb:
+    private static final float MINIMUM_TARGET_RADIUS
+com.tencent.download.Downloader:
+    public void cleanCache()
+    public void cancel(java.lang.String,com.tencent.download.Downloader$DownloadListener)
+    public void cancelAll()
+    public static boolean uploadLog(java.lang.String,java.util.Date,java.util.Date)
+    public boolean raisePriority(java.lang.String)
+com.tencent.download.a:
+    public void a()
+    public void a(java.lang.String,com.tencent.download.Downloader$DownloadListener)
+    public void b()
+    public static boolean a(java.lang.String,java.util.Date,java.util.Date)
+    public boolean c(java.lang.String)
+com.tencent.download.a.b.a:
+    public abstract void a()
+com.tencent.download.a.b.e:
+    public boolean a(com.tencent.download.a.b.f$b,java.lang.Comparable)
+com.tencent.download.a.b.e$c:
+    public void a()
+    static synthetic com.tencent.download.a.b.f$b b(com.tencent.download.a.b.e$c)
+    static synthetic boolean a(com.tencent.download.a.b.e$c,boolean)
+    static synthetic int a(com.tencent.download.a.b.e$c,int)
+com.tencent.download.a.b.f:
+    public java.util.concurrent.BlockingQueue b()
+com.tencent.download.a.b.f$a
+com.tencent.download.a.b.f$f:
+    private com.tencent.download.a.b.f$a d
+    private void f()
+    public synchronized void a()
+    com.tencent.download.a.b.f$b e()
+com.tencent.download.core.DownloadResult:
+    public com.tencent.download.core.a getReport()
+    public void reset()
+com.tencent.download.core.DownloadResult$a:
+    public void a()
+com.tencent.download.core.DownloadResult$b:
+    public void a()
+com.tencent.download.core.DownloadResult$c:
+    public final void a()
+com.tencent.download.core.b:
+    public void c()
+com.tencent.download.core.c:
+    public abstract void a()
+    public abstract void b()
+    public abstract boolean a(java.lang.String)
+    public abstract void a(java.lang.String,com.tencent.download.Downloader$DownloadListener)
+com.tencent.download.core.impl.a:
+    public void j()
+com.tencent.download.core.impl.d:
+    public void a(java.lang.String,com.tencent.download.Downloader$DownloadListener)
+    public void a()
+    public void b()
+    public boolean a(java.lang.String)
+    private boolean g(java.lang.String)
+    private boolean a(java.lang.String,com.tencent.download.core.b,java.util.Collection)
+    private com.tencent.download.a.g b(boolean)
+    private void a(java.util.Collection)
+com.tencent.download.core.impl.e:
+    final synthetic com.tencent.download.core.impl.d b
+    e(com.tencent.download.core.impl.d,com.tencent.download.core.impl.a)
+com.tencent.download.core.impl.strategy.QzoneResumeTransfer:
+    public void a()
+com.tencent.download.core.strategy.g:
+    public abstract void a()
+com.tencent.download.global.Global:
+    public static final java.lang.String SDK_VERSION
+    public Global()
+com.tencent.download.module.b.a.a:
+    public final void a()
+com.tencent.download.module.b.b.b:
+    public synchronized void a()
+com.tencent.download.module.d.a:
+    public static boolean a(java.lang.String,java.util.Date)
+com.tencent.download.module.d.a.a:
+    public static boolean a(java.lang.String,java.util.Date)
+com.tencent.download.module.d.a.a.a
+com.tencent.download.module.d.a.a.b
+com.tencent.download.module.d.a.a.c
+com.tencent.download.module.d.a.a.d
+com.tencent.download.module.d.a.a.e
+com.tencent.download.module.d.a.a.f
+com.tencent.download.module.d.a.a.g
+com.tencent.download.module.d.a.a.h
+com.tencent.download.module.d.a.a.i
+com.tencent.download.module.d.a.b:
+    public boolean a(java.lang.String,java.util.Date)
+com.tencent.download.module.d.a.b$c
+com.tencent.download.module.log.a:
+    public abstract java.lang.String a(java.util.Date)
+    public abstract void a()
+com.tencent.download.module.log.b:
+    public static java.lang.String a(java.util.Date)
+com.tencent.download.module.log.c:
+    public void a()
+    public java.lang.String a(java.util.Date)
+com.tencent.download.module.log.trace.TracerConfig:
+    public static final long MEMORY_SIZE
+    public static final long LOG_MAX_KEEP_DAY
+    public static final long LOG_FLUSH_DURATION
+    public static final java.lang.String DEF_TRACE_FILEEXT
+    public static final int MAX_BLOCK_COUNT
+    public static final int MAX_BLOCK_SIZE
+    public TracerConfig()
+com.tencent.download.module.log.trace.a:
+    public java.lang.String a(java.util.Date)
+com.tencent.download.module.log.trace.g:
+    public abstract java.lang.String a(java.util.Date)
+com.tencent.map.a.a.a
+com.tencent.map.a.a.b
+com.tencent.map.a.a.c
+com.tencent.map.a.a.d
+com.tencent.map.b.a
+com.tencent.map.b.a$1
+com.tencent.map.b.b
+com.tencent.map.b.b$a
+com.tencent.map.b.b$b
+com.tencent.map.b.c
+com.tencent.map.b.c$a
+com.tencent.map.b.c$b
+com.tencent.map.b.d
+com.tencent.map.b.d$1
+com.tencent.map.b.d$a
+com.tencent.map.b.d$b
+com.tencent.map.b.d$c
+com.tencent.map.b.e
+com.tencent.map.b.e$a
+com.tencent.map.b.e$b
+com.tencent.map.b.e$c
+com.tencent.map.b.f
+com.tencent.map.b.f$1
+com.tencent.map.b.f$2
+com.tencent.map.b.f$a
+com.tencent.map.b.f$b
+com.tencent.map.b.f$c
+com.tencent.map.b.g:
+    private android.content.Context a
+    private com.tencent.map.b.g$a c
+    private byte[] j
+    public g()
+    public final boolean a(android.content.Context,com.tencent.map.b.g$c,int)
+    public final void a()
+    public final boolean b()
+    public final boolean c()
+    static synthetic void a(com.tencent.map.b.g)
+com.tencent.map.b.g$1
+com.tencent.map.b.g$a:
+    public g$a(com.tencent.map.b.g)
+com.tencent.map.b.g$b:
+    public final java.util.List a()
+com.tencent.map.b.h
+com.tencent.map.b.i
+com.tencent.map.b.j
+com.tencent.map.b.k
+com.tencent.map.b.k$a
+com.tencent.map.b.l
+com.tencent.map.b.m
+com.tencent.map.b.n
+com.tencent.map.b.q
+com.tencent.map.geolocation.TencentDistanceAnalysis
+com.tencent.map.geolocation.TencentGeofence:
+    private final long f
+    37:45:private TencentGeofence(double,double,float,long,java.lang.String)
+    51:51:public double getLatitude()
+    58:58:public double getLongitude()
+    74:74:public long getExpireAt()
+    81:81:public long getDuration()
+    27:27:synthetic TencentGeofence(double,double,float,long,java.lang.String,byte)
+com.tencent.map.geolocation.TencentGeofence$1
+com.tencent.map.geolocation.TencentGeofence$Builder
+com.tencent.map.geolocation.TencentGeofenceManager
+com.tencent.map.geolocation.TencentLocation:
+    public static final java.lang.String GPS_PROVIDER
+    public static final java.lang.String NETWORK_PROVIDER
+    public static final java.lang.String EXTRA_ADDRDESP_OTHERS_RESULTS
+    public static final java.lang.String EXTRA_ADDRDESP_LANDMARK
+    public static final java.lang.String EXTRA_ADDRDESP_SECOND_LANDMARK
+    public static final java.lang.String EXTRA_DIRECTION
+    public static final java.lang.String EXTRA_RESP_JSON
+    public static final int ERROR_OK
+    public static final int ERROR_NETWORK
+    public static final int ERROR_BAD_JSON
+    public static final int ERROR_WGS84
+    public static final int ERROR_UNKNOWN
+    public abstract double getAltitude()
+    public abstract java.lang.String getAddress()
+    public abstract java.lang.String getNation()
+    public abstract java.lang.String getProvince()
+    public abstract java.lang.String getCity()
+    public abstract java.lang.String getDistrict()
+    public abstract java.lang.String getTown()
+    public abstract java.lang.String getVillage()
+    public abstract java.lang.String getStreet()
+    public abstract java.lang.String getStreetNo()
+    public abstract java.lang.Integer getAreaStat()
+    public abstract java.util.List getPoiList()
+    public abstract float getBearing()
+    public abstract long getElapsedRealtime()
+    public abstract int getRssi()
+    public abstract double getDirection()
+    public abstract java.lang.String getCityCode()
+    public abstract int getCoordinateType()
+    public abstract int isMockGps()
+    public abstract android.os.Bundle getExtra()
+com.tencent.map.geolocation.TencentLocationListener:
+    public static final java.lang.String GPS
+    public static final java.lang.String WIFI
+    public static final java.lang.String RADIO
+    public static final java.lang.String CELL
+    public static final int STATUS_DISABLED
+    public static final int STATUS_ENABLED
+    public static final int STATUS_DENIED
+    public static final int STATUS_GPS_AVAILABLE
+    public static final int STATUS_GPS_UNAVAILABLE
+    public static final int STATUS_LOCATION_SWITCH_OFF
+    public static final int STATUS_UNKNOWN
+com.tencent.map.geolocation.TencentLocationManager:
+    public static final int COORDINATE_TYPE_GCJ02
+    public static final int COORDINATE_TYPE_WGS84
+    122:1774:public final int getCoordinateType()
+    197:2545:public final java.lang.String resumeLocationUpdates()
+    206:2554:public final java.lang.String pauseLocationUpdates()
+    220:3328:public final int startDistanceCalculate(com.tencent.map.geolocation.TencentDistanceListener)
+    237:4031:public final com.tencent.map.geolocation.TencentDistanceAnalysis stopDistanceCalculate(com.tencent.map.geolocation.TencentDistanceListener)
+    246:246:public final com.tencent.map.geolocation.TencentLocation getLastKnownLocation()
+    270:271:public final java.lang.String getBuild()
+    275:276:public final java.lang.String getVersion()
+    293:7152:public final java.lang.String getKey()
+    311:314:public static com.tencent.map.geolocation.TencentLocationRequest setAllowGps(com.tencent.map.geolocation.TencentLocationRequest,boolean)
+    324:327:public static boolean isAllowGps(com.tencent.map.geolocation.TencentLocationRequest)
+com.tencent.map.geolocation.TencentLocationManagerOptions:
+    9:9:public TencentLocationManagerOptions()
+    22:23:public static void setLoadLibraryEnabled(boolean)
+    26:27:public static void setGpsFilterEnabled(boolean)
+com.tencent.map.geolocation.TencentLocationRequest:
+    public static final int REQUEST_LEVEL_GEO
+    public static final int REQUEST_LEVEL_NAME
+    public static final int REQUEST_LEVEL_ADMIN_AREA
+    public static final int REQUEST_LEVEL_POI
+    public static final int REQUEST_LEVEL_FORMATTED_ADDRESS
+    public static final int REQUEST_LEVEL_GLOBAL_ADMIN_AREA
+    62:72:public TencentLocationRequest(com.tencent.map.geolocation.TencentLocationRequest)
+    196:197:public final com.tencent.map.geolocation.TencentLocationRequest setAllowDirection(boolean)
+    208:209:public final com.tencent.map.geolocation.TencentLocationRequest setQQ(java.lang.String)
+    224:228:public final com.tencent.map.geolocation.TencentLocationRequest setPhoneNumber(java.lang.String)
+    263:263:public final boolean isAllowCache()
+com.tencent.map.geolocation.TencentLocationUtils:
+    16:17:private TencentLocationUtils()
+    33:36:public static double distanceBetween(com.tencent.map.geolocation.TencentLocation,com.tencent.map.geolocation.TencentLocation)
+    55:55:public static double distanceBetween(double,double,double,double)
+    71:74:public static boolean contains(com.tencent.map.geolocation.TencentLocation,double,com.tencent.map.geolocation.TencentLocation)
+    101:104:public static boolean isFromNetwork(com.tencent.map.geolocation.TencentLocation)
+    111:115:public static boolean isSupportGps(android.content.Context)
+com.tencent.mapsdk.a.b.a:
+    public final void a(int)
+com.tencent.mapsdk.a.c:
+    public static void b(double,double)
+    public static void a(boolean)
+com.tencent.mapsdk.a.c.b
+com.tencent.mapsdk.a.c.d
+com.tencent.mapsdk.a.c.e
+com.tencent.mapsdk.a.c.f
+com.tencent.mapsdk.a.c.g
+com.tencent.mapsdk.a.d:
+    public static com.tencent.mapsdk.a.c.a a(float,android.graphics.Point)
+    public static com.tencent.mapsdk.a.c.a a(com.tencent.mapsdk.raster.model.LatLngBounds,int,int,int)
+    public static double a(com.tencent.mapsdk.raster.model.LatLng,com.tencent.mapsdk.raster.model.LatLng)
+com.tencent.mapsdk.a.d.a:
+    public final boolean c(java.lang.String)
+    public final com.tencent.mapsdk.a.e.d a(com.tencent.mapsdk.raster.model.PolylineOptions)
+    public final com.tencent.mapsdk.a.e.a a(com.tencent.mapsdk.raster.model.GroundOverlayOptions)
+    public final com.tencent.mapsdk.a.e.c a(com.tencent.mapsdk.raster.model.PolygonOptions)
+com.tencent.mapsdk.a.d.a$1:
+    public void d(boolean)
+com.tencent.mapsdk.a.d.b:
+    public final void a(boolean)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLoadedListener)
+    public final void a(double,boolean,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public final void a(boolean,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public final void a(int,int,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+com.tencent.mapsdk.a.d.c:
+    public final float a(float)
+    public final float e()
+    public final boolean a(com.tencent.mapsdk.raster.model.LatLngBounds)
+    public final void c(int)
+com.tencent.mapsdk.a.d.e:
+    public final com.tencent.mapsdk.a.f.f i()
+    public final void a(int)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener,android.graphics.Rect)
+com.tencent.mapsdk.a.d.f:
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapCameraChangeListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapClickListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLongClickListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMarkerDraggedListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$OnInfoWindowClickListener)
+    public final void a(com.tencent.tencentmap.mapsdk.map.TencentMap$InfoWindowAdapter)
+com.tencent.mapsdk.a.e.a
+com.tencent.mapsdk.a.e.a.c:
+    public final void a(android.view.View)
+    public final android.view.View a()
+    public final void b()
+    public final boolean d()
+    private void w()
+    public final void a(float,float)
+    public final java.lang.String h()
+    public final java.lang.String i()
+    public final float j()
+    public final void a(boolean)
+    public final boolean k()
+    public final com.tencent.mapsdk.raster.model.LatLng l()
+    public final void b(boolean)
+    public final float o()
+    public final void a(java.lang.String)
+    public final void b(java.lang.String)
+    public final void a(android.view.animation.Animation)
+    public final void b(android.view.animation.Animation)
+    public final java.lang.Object p()
+    public final void a(java.lang.Object)
+    static synthetic android.view.View a(com.tencent.mapsdk.a.e.a.c,android.view.View)
+    static synthetic void l(com.tencent.mapsdk.a.e.a.c)
+    static synthetic void m(com.tencent.mapsdk.a.e.a.c)
+com.tencent.mapsdk.a.e.a.c$4
+com.tencent.mapsdk.a.e.a.c$4$1
+com.tencent.mapsdk.a.e.a.d:
+    private java.util.List a
+    private com.tencent.mapsdk.a.d.a d
+    private boolean g
+    public d(com.tencent.mapsdk.a.d.e,com.tencent.mapsdk.raster.model.PolylineOptions)
+    public void remove()
+    public void a(java.util.List)
+    public java.util.List c()
+    public void a(float)
+    public void a(boolean)
+    public boolean d()
+    public void b(boolean)
+    public boolean e()
+    public void a(int)
+    public void setZIndex(float)
+    public void setVisible(boolean)
+    public boolean equalsRemote(com.tencent.mapsdk.a.e.b)
+    public int hashCodeRemote()
+    private static void a(java.util.List,java.util.List,double)
+    private void b(java.util.List)
+com.tencent.mapsdk.a.e.a.f:
+    private com.tencent.mapsdk.a.d.e a
+    public f(com.tencent.mapsdk.a.d.e,com.tencent.mapsdk.raster.model.TileOverlayOptions)
+    public final void b()
+    public static void c()
+    public final java.lang.String d()
+    public final void a(boolean)
+com.tencent.mapsdk.a.e.b:
+    public abstract void remove()
+    public abstract void setZIndex(float)
+    public abstract void setVisible(boolean)
+    public abstract boolean equalsRemote(com.tencent.mapsdk.a.e.b)
+    public abstract int hashCodeRemote()
+com.tencent.mapsdk.a.e.c
+com.tencent.mapsdk.a.e.d:
+    public abstract void a(float)
+    public abstract float a()
+    public abstract void a(int)
+    public abstract int b()
+    public abstract void a(java.util.List)
+    public abstract java.util.List c()
+    public abstract void a(boolean)
+    public abstract boolean d()
+    public abstract boolean e()
+    public abstract void b(boolean)
+com.tencent.mapsdk.a.f.a:
+    public final void b(com.tencent.mapsdk.a.e.a.f)
+com.tencent.mapsdk.a.f.a.a:
+    public static boolean b()
+com.tencent.mapsdk.a.f.a.b:
+    public void a(float)
+    public void a(int)
+    public void b(int)
+    public boolean b(com.tencent.mapsdk.raster.model.LatLng)
+    public void a(boolean)
+    public void a(android.graphics.DashPathEffect)
+    public boolean f()
+    public android.graphics.DashPathEffect g()
+    public void remove()
+    public void setZIndex(float)
+    public void setVisible(boolean)
+com.tencent.mapsdk.a.f.b:
+    public final boolean a(com.tencent.mapsdk.a.e.a.f)
+com.tencent.mapsdk.a.f.b$1:
+    public com.tencent.mapsdk.a.e.a.f a(com.tencent.mapsdk.raster.model.TileOverlayOptions)
+    private static void a(java.util.List,com.tencent.mapsdk.a.e.a.f)
+    public boolean a(com.tencent.mapsdk.a.e.a.f)
+    private static void b(java.util.List,com.tencent.mapsdk.a.e.a.f)
+com.tencent.mapsdk.a.f.b.a:
+    public int getTileWidth()
+    public int getTileHeight()
+com.tencent.mapsdk.a.f.f:
+    private com.tencent.mapsdk.a.e.a.f b
+    private com.tencent.mapsdk.a.f.f$a e
+    public final void a(boolean)
+    static synthetic com.tencent.mapsdk.a.d.e a(com.tencent.mapsdk.a.f.f)
+    static synthetic android.os.Handler b(com.tencent.mapsdk.a.f.f)
+com.tencent.mapsdk.a.f.f$a
+com.tencent.mapsdk.a.g.a:
+    public static android.graphics.Bitmap a(java.lang.String)
+    public static boolean a(com.tencent.mapsdk.raster.model.LatLng,java.util.List)
+    private static boolean a(double,double,double,double,double,double)
+com.tencent.mapsdk.a.h.b:
+    public final void a(boolean)
+com.tencent.mapsdk.raster.model.BitmapDescriptor:
+    public final int getWidth()
+    public final int getHeight()
+com.tencent.mapsdk.raster.model.BitmapDescriptorFactory:
+    public static com.tencent.mapsdk.raster.model.BitmapDescriptor fromView(android.view.View)
+    private static android.graphics.Bitmap getViewBitmap(android.view.View)
+    public static com.tencent.mapsdk.raster.model.BitmapDescriptor fromPath(java.lang.String)
+    public static com.tencent.mapsdk.raster.model.BitmapDescriptor fromFile(java.lang.String)
+com.tencent.mapsdk.raster.model.Circle:
+    public final void remove()
+    public final java.lang.String getId()
+    public final com.tencent.mapsdk.raster.model.LatLng getCenter()
+    public final double getRadius()
+    public final void setStrokeWidth(float)
+    public final float getStrokeWidth()
+    public final void setStrokeColor(int)
+    public final int getStrokeColor()
+    public final void setFillColor(int)
+    public final int getFillColor()
+    public final void setZIndex(float)
+    public final float getZIndex()
+    public final void setVisible(boolean)
+    public final boolean isVisible()
+    public final boolean contains(com.tencent.mapsdk.raster.model.LatLng)
+    public final void setStrokeDash(boolean)
+    public final void strokeDashPathEffect(android.graphics.DashPathEffect)
+    public final boolean getStrokeDash()
+    public final android.graphics.DashPathEffect getStrokeDashPathEffect()
+com.tencent.mapsdk.raster.model.CircleOptions:
+    private java.lang.String id
+    public final void writeToParcel(android.os.Parcel,int)
+    public final int describeContents()
+    public final com.tencent.mapsdk.raster.model.CircleOptions zIndex(float)
+    public final com.tencent.mapsdk.raster.model.CircleOptions visible(boolean)
+    public final com.tencent.mapsdk.raster.model.CircleOptions strokeDash(boolean)
+    public final com.tencent.mapsdk.raster.model.CircleOptions strokeDashPathEffect(android.graphics.DashPathEffect)
+com.tencent.mapsdk.raster.model.GroundOverlay
+com.tencent.mapsdk.raster.model.GroundOverlayOptions
+com.tencent.mapsdk.raster.model.LatLngBounds:
+    int getVersionCode()
+    public static com.tencent.mapsdk.raster.model.LatLngBounds$Builder builder()
+    public com.tencent.mapsdk.raster.model.LatLngBounds including(com.tencent.mapsdk.raster.model.LatLng)
+com.tencent.mapsdk.raster.model.LatLngBounds$Builder:
+    public final com.tencent.mapsdk.raster.model.LatLngBounds$Builder include(java.lang.Iterable)
+    public final com.tencent.mapsdk.raster.model.LatLngBounds build()
+com.tencent.mapsdk.raster.model.Marker:
+    public final float getAlpha()
+    public final java.lang.String getId()
+    public final com.tencent.mapsdk.raster.model.LatLng getPosition()
+    public final float getRotation()
+    public final java.lang.String getSnippet()
+    public final java.lang.String getTitle()
+    public final void hideInfoWindow()
+    public final boolean isDraggable()
+    public final boolean isInfoWindowShown()
+    public final boolean isVisible()
+    public final void remove()
+    public final void setAlpha(float)
+    public final void setAnchor(float,float)
+    public final void setDraggable(boolean)
+    public final void setIcon(com.tencent.mapsdk.raster.model.BitmapDescriptor)
+    public final void setRotation(float)
+    public final void setSnippet(java.lang.String)
+    public final void setTitle(java.lang.String)
+    public final void setVisible(boolean)
+    public final void showInfoWindow()
+    public final void set2Top()
+    public final android.view.View getMarkerView()
+    public final void setMarkerView(android.view.View)
+    public final void setInfoWindowHideAnimation(android.view.animation.Animation)
+    public final void setInfoWindowShowAnimation(android.view.animation.Animation)
+    public final java.lang.Object getTag()
+    public final void setTag(java.lang.Object)
+com.tencent.mapsdk.raster.model.MarkerOptions:
+    protected java.lang.String id
+    public final com.tencent.mapsdk.raster.model.MarkerOptions alpha(float)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions rotation(float)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions title(java.lang.String)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions snippet(java.lang.String)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions draggable(boolean)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions visible(boolean)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions tag(java.lang.Object)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions markerView(android.view.View)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions infoWindowShowAnimation(android.view.animation.Animation)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions setShowingAnination(android.view.animation.Animation)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions setHidingAnination(android.view.animation.Animation)
+    public final com.tencent.mapsdk.raster.model.MarkerOptions infoWindowHideAnimation(android.view.animation.Animation)
+com.tencent.mapsdk.raster.model.Polygon
+com.tencent.mapsdk.raster.model.PolygonOptions
+com.tencent.mapsdk.raster.model.Polyline
+com.tencent.mapsdk.raster.model.PolylineOptions
+com.tencent.mapsdk.raster.model.Tile:
+    public final int getX()
+    public final int getY()
+    public final int getZoom()
+com.tencent.mapsdk.raster.model.TileOverlay
+com.tencent.mapsdk.raster.model.TileOverlayOptions
+com.tencent.mapsdk.raster.model.TileProvider:
+    public abstract int getTileWidth()
+    public abstract int getTileHeight()
+com.tencent.mapsdk.raster.model.VisibleRegion
+com.tencent.open.GameAppOperation
+com.tencent.open.GameAppOperation$1
+com.tencent.open.GameAppOperation$2
+com.tencent.open.GameAppOperation$3
+com.tencent.open.GameAppOperation$4
+com.tencent.open.LocationApi
+com.tencent.open.LocationApi$1
+com.tencent.open.LocationApi$2
+com.tencent.open.LocationApi$3
+com.tencent.open.LocationApi$a
+com.tencent.open.LocationApi$b
+com.tencent.open.PKDialog
+com.tencent.open.PKDialog$1
+com.tencent.open.PKDialog$FbWebViewClient
+com.tencent.open.PKDialog$JsListener
+com.tencent.open.PKDialog$OnTimeListener
+com.tencent.open.PKDialog$THandler
+com.tencent.open.SocialApi
+com.tencent.open.SocialApiIml
+com.tencent.open.SocialApiIml$1
+com.tencent.open.SocialApiIml$a
+com.tencent.open.SocialApiIml$b
+com.tencent.open.SocialApiIml$c
+com.tencent.open.SocialConstants
+com.tencent.open.TDialog
+com.tencent.open.TDialog$1
+com.tencent.open.TDialog$FbWebViewClient
+com.tencent.open.TDialog$JsListener
+com.tencent.open.TDialog$OnTimeListener
+com.tencent.open.TDialog$THandler
+com.tencent.open.TaskGuide:
+    private android.view.WindowManager$LayoutParams d
+    private android.view.ViewGroup e
+    private android.view.WindowManager f
+    private android.os.Handler g
+    private com.tencent.open.TaskGuide$h h
+    private com.tencent.open.TaskGuide$k i
+    private com.tencent.open.TaskGuide$k j
+    private static android.graphics.drawable.Drawable k
+    private static android.graphics.drawable.Drawable l
+    private static android.graphics.drawable.Drawable m
+    private int A
+    private int B
+    private float C
+    private android.view.animation.Interpolator D
+    private boolean E
+    private android.content.Context F
+    boolean a
+    private boolean G
+    private boolean H
+    private long I
+    private int J
+    private int K
+    private java.lang.Runnable M
+    private java.lang.Runnable N
+    com.tencent.tauth.IUiListener c
+    65:579:public TaskGuide(android.content.Context,com.tencent.connect.auth.QQToken)
+    65:579:public TaskGuide(android.content.Context,com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+    125:130:private void c()
+    134:158:private android.view.WindowManager$LayoutParams a(android.content.Context)
+    162:165:private void d()
+    175:175:private int a(int)
+    185:214:private android.view.ViewGroup b(android.content.Context)
+    221:224:private android.graphics.drawable.Drawable e()
+    228:231:private android.graphics.drawable.Drawable f()
+    235:238:private android.graphics.drawable.Drawable g()
+    242:267:private void b(int)
+    281:290:private void a(int,com.tencent.open.TaskGuide$k)
+    314:319:private com.tencent.open.TaskGuide$k c(int)
+    329:363:public void showWindow()
+    594:597:private void d(int)
+    600:604:private void h()
+    607:620:private void i()
+    623:636:private void a(boolean)
+    639:639:private boolean j()
+    643:651:private void k()
+    657:665:private void l()
+    670:674:public void removeWindow()
+    678:707:private android.graphics.drawable.Drawable a(java.lang.String,android.content.Context)
+    918:927:private void a(java.lang.String)
+    1020:1049:public void showTaskGuideWindow(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    1053:1065:private void e(int)
+    60:60:static synthetic boolean a(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.ViewGroup b(com.tencent.open.TaskGuide)
+    60:60:static synthetic com.tencent.open.TaskGuide$k c(com.tencent.open.TaskGuide)
+    60:60:static synthetic com.tencent.open.TaskGuide$k d(com.tencent.open.TaskGuide)
+    60:60:static synthetic com.tencent.open.TaskGuide$k a(com.tencent.open.TaskGuide,int)
+    60:60:static synthetic void b(com.tencent.open.TaskGuide,int)
+    60:60:static synthetic void c(com.tencent.open.TaskGuide,int)
+    60:60:static synthetic void e(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.ViewGroup a(com.tencent.open.TaskGuide,android.view.ViewGroup)
+    60:60:static synthetic android.content.Context f(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.ViewGroup a(com.tencent.open.TaskGuide,android.content.Context)
+    60:60:static synthetic android.view.WindowManager$LayoutParams a(com.tencent.open.TaskGuide,android.view.WindowManager$LayoutParams)
+    60:60:static synthetic android.view.WindowManager$LayoutParams b(com.tencent.open.TaskGuide,android.content.Context)
+    60:60:static synthetic void g(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.WindowManager$LayoutParams h(com.tencent.open.TaskGuide)
+    60:60:static synthetic boolean a(com.tencent.open.TaskGuide,boolean)
+    60:60:static synthetic void i(com.tencent.open.TaskGuide)
+    60:60:static synthetic int d(com.tencent.open.TaskGuide,int)
+    60:60:static synthetic int a()
+    60:60:static synthetic int b()
+    60:60:static synthetic android.graphics.drawable.Drawable j(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.graphics.drawable.Drawable k(com.tencent.open.TaskGuide)
+    60:60:static synthetic void e(com.tencent.open.TaskGuide,int)
+    60:60:static synthetic void l(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.animation.Interpolator m(com.tencent.open.TaskGuide)
+    60:60:static synthetic int n(com.tencent.open.TaskGuide)
+    60:60:static synthetic int o(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.view.WindowManager p(com.tencent.open.TaskGuide)
+    60:60:static synthetic void q(com.tencent.open.TaskGuide)
+    60:60:static synthetic java.lang.Runnable r(com.tencent.open.TaskGuide)
+    60:60:static synthetic android.os.Handler s(com.tencent.open.TaskGuide)
+    60:60:static synthetic com.tencent.open.TaskGuide$h a(com.tencent.open.TaskGuide,com.tencent.open.TaskGuide$h)
+    60:60:static synthetic com.tencent.open.TaskGuide$h t(com.tencent.open.TaskGuide)
+    60:60:static synthetic void a(com.tencent.open.TaskGuide,int,com.tencent.open.TaskGuide$k)
+    60:60:static synthetic void a(com.tencent.open.TaskGuide,java.lang.String)
+com.tencent.open.TaskGuide$1
+com.tencent.open.TaskGuide$2
+com.tencent.open.TaskGuide$3
+com.tencent.open.TaskGuide$4
+com.tencent.open.TaskGuide$a
+com.tencent.open.TaskGuide$b
+com.tencent.open.TaskGuide$c
+com.tencent.open.TaskGuide$d
+com.tencent.open.TaskGuide$d$1
+com.tencent.open.TaskGuide$e
+com.tencent.open.TaskGuide$f
+com.tencent.open.TaskGuide$g
+com.tencent.open.TaskGuide$h
+com.tencent.open.TaskGuide$i
+com.tencent.open.TaskGuide$j
+com.tencent.open.TaskGuide$j$1
+com.tencent.open.a:
+    176:178:public a()
+com.tencent.open.a.f:
+    141:142:public static final void d(java.lang.String,java.lang.String)
+com.tencent.open.b
+com.tencent.open.b$1
+com.tencent.open.b.d:
+    58:62:public void a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.open.c
+com.tencent.open.c$a
+com.tencent.open.c.a
+com.tencent.open.c.a$a
+com.tencent.open.d
+com.tencent.open.e
+com.tencent.open.e$a
+com.tencent.open.qzone.Albums:
+    55:56:public Albums(android.content.Context,com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+    59:60:public Albums(android.content.Context,com.tencent.connect.auth.QQToken)
+    70:75:public void listAlbum(com.tencent.tauth.IUiListener)
+    88:93:public void listPhotos(java.lang.String,com.tencent.tauth.IUiListener)
+    111:160:public void uploadPicture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener)
+    175:184:public void addAlbum(java.lang.String,java.lang.String,com.tencent.open.qzone.Albums$AlbumSecurity,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener)
+com.tencent.open.t.Weibo
+com.tencent.open.utils.ApkExternalInfoTool
+com.tencent.open.utils.ApkExternalInfoTool$1
+com.tencent.open.utils.ApkExternalInfoTool$ApkExternalInfo
+com.tencent.open.utils.AsynLoadImgBack:
+    public static final int LOAD_IMAGE_COMPLETED
+    public static final int LOAD_IMAGE_PATH_NULL
+    public static final int LOAD_IMAGE_NO_SDCARD
+    public static final int LOAD_IMAGE_IMAGE_FORMAT_ERROR
+com.tencent.open.utils.DataConvert
+com.tencent.open.utils.Global:
+    46:46:public Global()
+    77:80:public static final android.content.SharedPreferences getSharedPreferences(java.lang.String,int)
+    111:112:public static int getVersionCode()
+com.tencent.open.utils.HttpUtils:
+    868:988:public static org.json.JSONObject upload(com.tencent.connect.auth.QQToken,android.content.Context,java.lang.String,android.os.Bundle)
+com.tencent.open.utils.OpenConfig:
+    259:261:public long getLong(java.lang.String)
+com.tencent.open.utils.ServerSetting:
+    public static final int ENVIRONMENT_NORMOL
+    public static final int ENVIRONMENT_EXPERIENCE
+    public static final java.lang.String KEY_OPEN_SETTING
+    public static final java.lang.String KEY_OPEN_ENV
+    public static final java.lang.String KEY_HOST_FUSION
+    public static final java.lang.String KEY_HOST_APPIC
+    public static final java.lang.String KEY_HOST_OPEN_MOBILE
+    public static final java.lang.String KEY_HOST_MAPP_QZONE
+    public static final java.lang.String KEY_HOST_ANALY
+    public static final java.lang.String KEY_HOST_QZAPP_QLOGO
+    public static final java.lang.String KEY_HOST_I_GTIMG
+    public static final java.lang.String KEY_HOST_APP_SUPPORT
+    public static final java.lang.String KEY_HOST_QZS_QQ
+    public static final java.lang.String DEFAULT_REDIRECT_URI
+    public static final java.lang.String DEFAULT_CGI_AUTHORIZE
+    public static final java.lang.String DEFAULT_URL_SEND_STORY
+    public static final java.lang.String DEFAULT_URL_INVITE
+    public static final java.lang.String DEFAULT_URL_REPORT
+    public static final java.lang.String DEFAULT_URL_GRAPH_BASE
+    public static final java.lang.String DEFAULT_URL_BRAG
+    public static final java.lang.String DEFAULT_URL_ASK
+    public static final java.lang.String DEFAULT_URL_GIFT
+    public static final java.lang.String DEFAULT_LOCAL_STORAGE_URI
+    public static final java.lang.String DEFAULT_URL_VOICE
+    public static final java.lang.String DEFAULT_URL_REACTIVE
+    public static final java.lang.String DOWNLOAD_QQ_URL
+    public static final java.lang.String DOWNLOAD_QQ_URL_COMMON
+    public static final java.lang.String CGI_FETCH_QQ_URL
+    public static final java.lang.String APP_DETAIL_PAGE
+    public static final java.lang.String URL_FUSION_BASE
+    public static final java.lang.String URL_FUSION_CGI_BASE
+    public static final java.lang.String URL_PRIZE_MAKE_SHARE_URL
+    public static final java.lang.String URL_PRIZE_GET_ACTIVITY_STATE
+    public static final java.lang.String URL_PRIZE_QUERY_UNEXCHANGE
+    public static final java.lang.String URL_PRIZE_EXCHANGE
+    public static final java.lang.String NEED_QQ_VERSION_TIPS_URL
+    96:97:public void changeServer()
+    141:184:public void setEnvironment(android.content.Context,int)
+com.tencent.open.utils.SystemUtils:
+    public static final java.lang.String QQ_VERSION_NAME_4_2_0
+    public static final java.lang.String QQ_VERSION_NAME_4_3_0
+    public static final java.lang.String QQ_VERSION_NAME_4_5_0
+    public static final java.lang.String QQ_VERSION_NAME_4_6_0
+    public static final java.lang.String QQ_VERSION_NAME_5_0_0
+    public static final java.lang.String QQ_VERSION_NAME_5_1_0
+    public static final java.lang.String QQ_VERSION_NAME_5_2_0
+    public static final java.lang.String QQ_VERSION_NAME_5_3_0
+    public static final java.lang.String QQ_SHARE_CALLBACK_ACTION
+    public static final java.lang.String QZONE_SHARE_CALLBACK_ACTION
+    public static final java.lang.String QQFAVORITES_CALLBACK_ACTION
+    public static final java.lang.String QQDATALINE_CALLBACK_ACTION
+    public static final java.lang.String TROOPBAR_CALLBACK_ACTION
+    public static final java.lang.String ACTION_LOGIN
+    public static final java.lang.String ACTION_SHARE
+    public static final java.lang.String IS_LOGIN
+    public static final java.lang.String IS_QQ_MOBILE_SHARE
+    public static final java.lang.String H5_SHARE_DATA
+    29:29:public SystemUtils()
+    126:142:public static boolean isAppSignatureValid(android.content.Context,java.lang.String,java.lang.String)
+    153:179:public static java.lang.String getAppSignatureMD5(android.content.Context,java.lang.String)
+    203:210:public static java.lang.String getRealPathFromUri(android.app.Activity,android.net.Uri)
+    215:216:public static java.lang.String getAppName(android.content.Context)
+    235:262:public static boolean checkMobileQQ(android.content.Context)
+    302:359:public static boolean extractSecureLib(java.lang.String,java.lang.String,int)
+    370:391:public static boolean isLibExtracted(java.lang.String,int)
+    395:404:private static long a(java.io.InputStream,java.io.OutputStream)
+com.tencent.open.utils.TemporaryStorage:
+    13:13:public TemporaryStorage()
+com.tencent.open.utils.ThreadManager:
+    public static final boolean DEBUG_THREAD
+    private static android.os.Handler c
+    private static android.os.HandlerThread d
+    79:79:public static void init()
+    101:108:public static android.os.Handler getFileThreadHandler()
+    112:112:public static android.os.Looper getFileThreadLooper()
+    116:119:public static java.lang.Thread getSubThread()
+    142:142:public static android.os.Looper getSubThreadLooper()
+com.tencent.open.utils.Util:
+    97:118:public static java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+    281:379:public static com.tencent.open.utils.Util$Statistic upload(android.content.Context,java.lang.String,android.os.Bundle)
+    392:410:private static java.lang.String a(org.apache.http.HttpResponse)
+    489:493:public static void showAlert(android.content.Context,java.lang.String,java.lang.String)
+    503:506:public static void logd(java.lang.String,java.lang.String)
+    510:524:public static java.lang.String getUserIp()
+    798:806:public static java.lang.String toHexString(java.lang.String)
+    812:837:public static java.lang.String hexToString(java.lang.String)
+    847:853:public static java.lang.String getAppVersion(android.content.Context)
+    1147:1152:public static boolean isNumeric(java.lang.String)
+com.tencent.open.utils.Util$TBufferedOutputStream
+com.tencent.open.utils.ZipLong
+com.tencent.open.utils.ZipShort
+com.tencent.open.web.security.JniInterface:
+    3:3:public JniInterface()
+    public static native java.lang.String getPWDKeyToMD5(java.lang.String)
+    public static native boolean insetTextToArray(int,java.lang.String,int)
+    public static native boolean BackSpaceChar(boolean,int)
+com.tencent.open.web.security.SecureJsInterface:
+    private java.lang.String b
+    25:59:public void curPosFromJS(java.lang.String)
+    69:84:public void isPasswordEdit(java.lang.String)
+    92:100:public void clearAllEdit()
+    108:118:public java.lang.String getMD5FromNative()
+com.tencent.open.web.security.b:
+    15:15:public b()
+com.tencent.open.weiyun.FileManager:
+    85:86:public FileManager(android.content.Context,com.tencent.connect.auth.QQAuth,com.tencent.connect.auth.QQToken)
+    89:90:public FileManager(android.content.Context,com.tencent.connect.auth.QQToken)
+    131:138:public void getFileList(com.tencent.open.weiyun.FileManager$WeiyunFileType,com.tencent.open.weiyun.IGetFileListListener)
+    141:146:public void deleteFile(com.tencent.open.weiyun.FileManager$WeiyunFileType,java.lang.String,com.tencent.tauth.IUiListener)
+    149:150:public void downLoadFile(com.tencent.open.weiyun.FileManager$WeiyunFileType,com.tencent.open.weiyun.WeiyunFile,java.lang.String,com.tencent.open.weiyun.IDownLoadFileCallBack)
+    153:156:public void downLoadThumb(com.tencent.open.weiyun.WeiyunFile,java.lang.String,java.lang.String,com.tencent.open.weiyun.IDownLoadFileCallBack)
+    159:160:public void uploadFile(com.tencent.open.weiyun.FileManager$WeiyunFileType,java.lang.String,com.tencent.open.weiyun.IUploadFileCallBack)
+    55:55:static synthetic android.os.Bundle a(com.tencent.open.weiyun.FileManager)
+    55:55:static synthetic com.tencent.connect.auth.QQToken b(com.tencent.open.weiyun.FileManager)
+    55:55:static synthetic android.os.Bundle c(com.tencent.open.weiyun.FileManager)
+    55:55:static synthetic com.tencent.connect.auth.QQToken d(com.tencent.open.weiyun.FileManager)
+com.tencent.open.weiyun.FileManager$DownLoadImp
+com.tencent.open.weiyun.FileManager$DownLoadImp$1
+com.tencent.open.weiyun.FileManager$DownLoadImp$2
+com.tencent.open.weiyun.FileManager$DownLoadImp$3
+com.tencent.open.weiyun.FileManager$GetFileListListener
+com.tencent.open.weiyun.FileManager$UploadFileImp
+com.tencent.open.weiyun.FileManager$UploadFileImp$1
+com.tencent.open.weiyun.FileManager$UploadFileImp$2
+com.tencent.open.weiyun.FileManager$UploadFileImp$3
+com.tencent.open.weiyun.IDownLoadFileCallBack
+com.tencent.open.weiyun.IGetFileListListener
+com.tencent.open.weiyun.IUploadFileCallBack
+com.tencent.open.weiyun.RecordManager
+com.tencent.open.weiyun.RecordManager$1
+com.tencent.open.weiyun.RecordManager$2
+com.tencent.open.weiyun.RecordManager$3
+com.tencent.open.weiyun.RecordManager$4
+com.tencent.open.weiyun.RecordManager$5
+com.tencent.open.weiyun.RecordManager$6
+com.tencent.open.weiyun.WeiyunFile
+com.tencent.open.wpa.WPA
+com.tencent.open.yyb.AppbarActivity:
+    private static final java.lang.String WEBVIEW_PATH
+    public static final java.lang.String MYAPP_CACHE_PATH
+    private static final java.lang.String UA_PREFIX
+    private static final int FLOATING_DIALOG_HEIGHT
+    private int titlebarTop
+    410:427:public void showFloatingDialog()
+    430:436:private int getTitbarTop()
+    458:519:public void login()
+    646:647:public void setShareVisibility(boolean)
+    650:651:public void setAppbarTitle(java.lang.String)
+    654:655:public void setShareModel(com.tencent.open.yyb.ShareModel)
+    658:658:private java.lang.String buildTransaction(java.lang.String)
+com.tencent.open.yyb.AppbarActivity$1:
+    460:460:AppbarActivity$1(com.tencent.open.yyb.AppbarActivity)
+com.tencent.open.yyb.AppbarAgent
+com.tencent.open.yyb.AppbarJsBridge:
+    public static final java.lang.String CALLBACK_LOGIN
+    public static final java.lang.String CALLBACK_SHARE
+    public static final java.lang.String BUTTON_CLICK_CALLBACK_FUNCTION_NAME
+    public static final java.lang.String READY_CALLBACK_FUNCTION_NAME
+    public static final java.lang.String JS_BRIDGE_SCHEME
+    public static final int JSBRIDGE_VERSION
+    public static final int Result_OK
+    public static final int Result_Fail
+    public static final int Code_None
+    public static final int Code_Java_Exception
+    public static final int AUTHORIZE_FAIL
+    public static final int SHARE_QQ
+    public static final int SHARE_QZ
+    public static final int SHARE_WX
+    public static final int SHARE_TIMELINE
+    70:72:public void closeWebView(android.net.Uri,int,java.lang.String,java.lang.String)
+    82:94:public void pageControl(android.net.Uri,int,java.lang.String,java.lang.String)
+    98:139:public void share(android.net.Uri,int,java.lang.String,java.lang.String)
+    153:192:public void getAppInfo(android.net.Uri,int,java.lang.String,java.lang.String)
+    199:207:public void openNewWindow(android.net.Uri,int,java.lang.String,java.lang.String)
+    211:223:public void setWebView(android.net.Uri,int,java.lang.String,java.lang.String)
+    227:229:public void openLoginActivity(android.net.Uri,int,java.lang.String,java.lang.String)
+com.tencent.open.yyb.MoreFloatingDialog:
+    private static final java.lang.String SOURCE_FLOATING_BG
+    private static final java.lang.String SOURCE_QQ_BG
+    private static final java.lang.String SOURCE_QZONE_BG
+    private static final java.lang.String SOURCE_WEIXIN_BG
+    private static final java.lang.String SOURCE_FRIENDS_BG
+    private static final float SHARE_ICON_SIZE
+    private static final float NINE_PATCH_TOP
+    77:77:public int getContentViewHeight()
+    97:97:public int getHeight()
+com.tencent.open.yyb.TitleBar:
+    public static final float TITLEBAR_HEIGHT
+    public static final float BACKBTN_LEFT_MARGIN
+    public static final float SHAREBTN_RIGHT_MARGIN
+    private static final java.lang.String SOURCE_TITLEBAR
+    private static final java.lang.String SOURCE_BACK_BTN
+    private static final java.lang.String SOURCE_MORE_BTN
+    private static final float BACK_PADDING_LEFT
+    private static final float BACK_PADDING_TOP
+    private static final float BACK_PADDING_RIGHT
+    private static final float BACK_PADDING_BOTTOM
+    private static final float BACK_BTN_WIDTH
+    private static final float BACK_BTN_HEIGHT
+    private static final float SHARE_BTN_SIZE
+    private static final int ID_BACK_BTN
+com.tencent.open.yyb.a$a
+com.tencent.photoview.ImageLoaderInit:
+    public ImageLoaderInit()
+com.tencent.photoview.ImageViewerActivity:
+    public static final java.lang.String INTENT_EX_CURRENT_INDEX
+    public static final java.lang.String INTENT_EX_IMAGE_DATA
+    public static final int SAVE_BITMAP
+    public static final int SAVE_NOTICE_DATA_INDEX
+    public static final int SAVE_BITMAP_SUCESS
+    public static final int SAVE_BITMAP_FAIL
+com.tencent.stat.DeviceInfo:
+    public static final int NEW_USER
+    public static final int OLD_USER
+    public static final int UPGRADE_USER
+    public static final java.lang.String TAG_MID
+    public static final java.lang.String TAG_IMEI
+    public static final java.lang.String TAG_MAC
+    public static final java.lang.String TAG_ANDROID_ID
+    public static final java.lang.String TAG_TIMESTAMPS
+    public static final java.lang.String TAG_VERSION
+    public static final java.lang.String TAG_FLAG
+com.tencent.stat.NetworkMonitor:
+    public long getMillisecondsConsume()
+    public int getStatusCode()
+    public java.lang.String getDomain()
+    public int getPort()
+    public java.lang.String getRemoteIp()
+com.tencent.stat.StatAppMonitor
+com.tencent.stat.StatConfig:
+    static boolean a(int,int,int)
+    public static boolean isDebugEnable()
+    public static void setDebugEnable(boolean)
+    public static void setSessionTimoutMillis(int)
+    public static void setMaxBatchReportCount(int)
+    public static void setMaxSendRetryCount(int)
+    public static void setMaxStoreEventCount(int)
+    public static java.lang.String getCustomProperty(java.lang.String)
+    public static java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+    static void a(android.content.Context,java.lang.String)
+    static java.lang.String a(android.content.Context)
+    private static boolean a(java.lang.String)
+    public static void setAppKey(android.content.Context,java.lang.String)
+    public static void setAppKey(java.lang.String)
+    public static void setInstallChannel(java.lang.String)
+    public static java.lang.String getQQ()
+    public static void setQQ(android.content.Context,java.lang.String)
+    public static void setSendPeriodMinutes(int)
+    public static void setMaxParallelTimmingEvents(int)
+    public static void setEnableSmartReporting(boolean)
+    public static void setAutoExceptionCaught(boolean)
+    public static void setStatReportUrl(java.lang.String)
+    public static void setMaxSessionStatReportCount(int)
+    public static void setMaxDaySessionNumbers(int)
+    public static void setMaxReportEventLength(int)
+    public static void setEnableConcurrentProcess(boolean)
+    public static void setCustomUserId(android.content.Context,java.lang.String)
+    static void a(boolean)
+    public static void initNativeCrashReport(android.content.Context,java.lang.String)
+com.tencent.stat.StatGameUser
+com.tencent.stat.StatMid:
+    public StatMid()
+com.tencent.stat.StatNativeCrashReport:
+    public static final java.lang.String PRE_TAG_TOMBSTONE_FNAME
+    public native java.lang.String stringFromJNI()
+    public native boolean initJNICrash(java.lang.String)
+    public native void enableNativeCrashDebug(boolean)
+    public native void enableNativeCrash(boolean)
+    public native java.lang.String makeJniCrash()
+    public static java.lang.String onNativeCrashHappened()
+    public static void doNativeCrashTest()
+    public static void setNativeCrashEnable(boolean)
+    public static boolean isNativeCrashEnable()
+    public static void setNativeCrashDebugEnable(boolean)
+    public static boolean isNativeCrashDebugEnable()
+    public static void initNativeCrash(android.content.Context,java.lang.String)
+com.tencent.stat.StatService:
+    static boolean a(java.lang.String)
+    public static void startNewSession(android.content.Context)
+    public static void stopSession()
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String)
+    public static void reportGameUser(android.content.Context,com.tencent.stat.StatGameUser)
+    public static boolean startStatService(android.content.Context,java.lang.String,java.lang.String)
+    public static void reportError(android.content.Context,java.lang.String)
+    static void a(android.content.Context,java.util.Map)
+    public static void reportException(android.content.Context,java.lang.Throwable)
+    public static varargs void trackCustomEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor)
+    public static void commitEvents(android.content.Context,int)
+    public static void testSpeed(android.content.Context,java.util.Map)
+com.tencent.stat.a.a
+com.tencent.stat.a.b
+com.tencent.stat.a.c
+com.tencent.stat.a.g
+com.tencent.stat.a.h
+com.tencent.stat.common.StatConstants:
+    public static final java.lang.String VERSION
+    public static final java.lang.String MTA_SERVER
+    public static final java.lang.String MTA_STAT_URL
+    public static final java.lang.String MTA_COOPERATION_TAG
+    public static final int STAT_DB_VERSION
+    public static final int SDK_ONLINE_CONFIG_TYPE
+    public static final int USER_ONLINE_CONFIG_TYPE
+com.tencent.stat.common.StatLogger:
+    public int getLogLevel()
+    public void setLogLevel(int)
+    public void setTag(java.lang.String)
+    public void verbose(java.lang.Object)
+    public void v(java.lang.Object)
+com.tencent.stat.common.a:
+    public static void a(android.content.Context,java.util.Map)
+com.tencent.tauth.AuthActivity:
+    public static final java.lang.String ACTION_KEY
+    private static final java.lang.String ACTION_SHARE_TO_QQ
+    private static final java.lang.String ACTION_SHARE_TO_QZONE
+    private static final java.lang.String ACTION_ADD_TO_QQFAVORITES
+    private static final java.lang.String ACTION_SEND_TO_MY_COMPUTER
+    private static final java.lang.String ACTION_SHARE_TO_TROOP_BAR
+    public static final java.lang.String ACTION_SHARE_PRIZE
+    private static final java.lang.String SHARE_PRIZE_ACTIVITY_ID
+com.tencent.tauth.Tencent:
+    private com.tencent.open.LocationApi mLocationApi
+    private com.tencent.open.yyb.AppbarAgent mAgent
+    140:140:public int login(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+    144:144:public int login(android.support.v4.app.Fragment,java.lang.String,com.tencent.tauth.IUiListener)
+    160:160:public int loginWithOEM(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener,java.lang.String,java.lang.String,java.lang.String)
+    169:169:public int reAuth(android.app.Activity,java.lang.String,com.tencent.tauth.IUiListener)
+    178:179:public void reportDAU()
+    187:188:public void checkLogin(com.tencent.tauth.IUiListener)
+    191:193:public int invite(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    197:199:public int story(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    203:205:public int gift(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    209:211:public int ask(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    216:218:public void requestAsync(java.lang.String,android.os.Bundle,java.lang.String,com.tencent.tauth.IRequestListener,java.lang.Object)
+    223:223:public org.json.JSONObject request(java.lang.String,android.os.Bundle,java.lang.String)
+    250:250:public boolean isSessionValid()
+    258:258:public java.lang.String getAccessToken()
+    262:262:public long getExpiresIn()
+    276:276:public java.lang.String getOpenId()
+    291:292:public void handleLoginData(android.content.Intent,com.tencent.tauth.IUiListener)
+    304:305:public static void handleResultData(android.content.Intent,com.tencent.tauth.IUiListener)
+    324:326:public void setAccessToken(java.lang.String,java.lang.String)
+    337:342:public void setOpenId(java.lang.String)
+    350:351:public boolean isReady()
+    363:370:public boolean isSupportSSOLogin(android.app.Activity)
+    377:379:public void makeFriend(android.app.Activity,android.os.Bundle)
+    391:393:public void bindQQGroup(android.app.Activity,android.os.Bundle)
+    406:408:public void addToQQFavorites(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    421:423:public void sendToMyComputer(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    436:438:public void shareToTroopBar(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    443:445:public int reactive(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    449:453:public int searchNearby(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    457:461:public int deleteLocation(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    465:467:public int brag(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    471:473:public int challenge(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    477:481:public void setAvatar(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    485:489:public void setAvatar(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener,int,int)
+    492:494:public void grade(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    498:500:public void voice(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    503:505:public void showTaskGuideWindow(android.app.Activity,android.os.Bundle,com.tencent.tauth.IUiListener)
+    508:512:public void startAppbar(android.app.Activity,java.lang.String)
+    515:519:public void startAppbarLabel(android.app.Activity,java.lang.String)
+    603:607:public void startAppbarThread(android.app.Activity,java.lang.String)
+    617:632:public boolean joinQQGroup(android.app.Activity,java.lang.String)
+com.tencent.tencentmap.mapsdk.map.CameraUpdateFactory:
+    public CameraUpdateFactory()
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate zoomIn()
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate zoomOut()
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate scrollBy(float,float)
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate zoomBy(float)
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate zoomBy(float,android.graphics.Point)
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate newCameraPosition(com.tencent.mapsdk.raster.model.CameraPosition)
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate newLatLngBounds(com.tencent.mapsdk.raster.model.LatLngBounds,int)
+    public static com.tencent.tencentmap.mapsdk.map.CameraUpdate newLatLngBounds(com.tencent.mapsdk.raster.model.LatLngBounds,int,int,int)
+com.tencent.tencentmap.mapsdk.map.ItemizedOverlay:
+    public ItemizedOverlay(android.graphics.drawable.Drawable)
+    public ItemizedOverlay(android.content.Context)
+    public static android.graphics.drawable.Drawable boundCenter(android.graphics.drawable.Drawable)
+    protected abstract com.tencent.tencentmap.mapsdk.map.OverlayItem createItem(int)
+    protected final void populate()
+    public void setShadowEnable(boolean)
+    public boolean isShadowEnable()
+    public com.tencent.mapsdk.raster.model.GeoPoint getCenter()
+    public int getLatSpanE6()
+    public int getLonSpanE6()
+    public void setOnFocusChangeListener(com.tencent.tencentmap.mapsdk.map.ItemizedOverlay$OnFocusChangeListener)
+    public void setDrawFocusedItem(boolean)
+    public final int getLastFocusedIndex()
+    public com.tencent.tencentmap.mapsdk.map.OverlayItem nextFocus(boolean)
+    private com.tencent.tencentmap.mapsdk.map.OverlayItem backwordFocus(int)
+    private com.tencent.tencentmap.mapsdk.map.OverlayItem forwordFocus(int)
+com.tencent.tencentmap.mapsdk.map.ItemizedOverlay$ItemsContainer:
+    int iLatitudeCenter
+    int iLongitudeCenter
+    public ItemizedOverlay$ItemsContainer(com.tencent.tencentmap.mapsdk.map.ItemizedOverlay)
+    public void release()
+    public int getSpan(boolean)
+com.tencent.tencentmap.mapsdk.map.MapController:
+    public void animateTo(com.tencent.mapsdk.raster.model.GeoPoint,java.lang.Runnable)
+    public void animateTo(com.tencent.mapsdk.raster.model.GeoPoint,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void animateTo(com.tencent.mapsdk.raster.model.LatLng,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void scrollBy(float,float)
+    public void scrollBy(float,float,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void setCenter(com.tencent.mapsdk.raster.model.GeoPoint)
+    public void setZoom(int)
+    public void zoomIn()
+    public void zoomInFixing(int,int)
+    public void zoomOut()
+    public void zoomOutFixing(int,int)
+    public void zoomToSpan(com.tencent.mapsdk.raster.model.GeoPoint,com.tencent.mapsdk.raster.model.GeoPoint)
+    public void zoomToSpan(int,int)
+    public void setOnMarkerDragListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMarkerDraggedListener)
+    public void setOnMapLoadedListener(com.tencent.tencentmap.mapsdk.map.OnLoadedListener)
+    public void setOnMapLoadedListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLoadedListener)
+    public void setOnInfoWindowClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnInfoWindowClickListener)
+    public void setOnMarkerClickListener(com.tencent.tencentmap.mapsdk.map.OnMarkerPressListener)
+    public void setOnMarkerClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMarkerClickListener)
+    public void setOnMapCameraChangeListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapCameraChangeListener)
+    public void setOnMapHitListener(com.tencent.tencentmap.mapsdk.map.OnMapHitListener)
+    public void setOnMapClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapClickListener)
+    public void setOnMapPressClickLisener(com.tencent.tencentmap.mapsdk.map.OnMapLongPressListener)
+    public void setOnMapLongClickLisener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLongClickListener)
+    public boolean isAnimateEable()
+    public void setAnimateEable(boolean)
+    public void stopAnimation()
+    public com.tencent.tencentmap.mapsdk.map.Projection getProjection()
+    public void getScreenShot(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener)
+    public void getScreenShot(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener,android.graphics.Rect)
+    public void setInfoWindowAdapter(com.tencent.tencentmap.mapsdk.map.TencentMap$InfoWindowAdapter)
+com.tencent.tencentmap.mapsdk.map.MapController$1
+com.tencent.tencentmap.mapsdk.map.MapController$2
+com.tencent.tencentmap.mapsdk.map.MapController$3
+com.tencent.tencentmap.mapsdk.map.MapController$4
+com.tencent.tencentmap.mapsdk.map.MapFragmentUtil
+com.tencent.tencentmap.mapsdk.map.MapView:
+    public void onRestart()
+    public void onLowMemory()
+    public void onDestroyView()
+    public com.tencent.tencentmap.mapsdk.map.UiSettings getUiSettings()
+    public com.tencent.mapsdk.raster.model.LatLng getMapCenter()
+    public com.tencent.tencentmap.mapsdk.map.MapController getMapController()
+    public void refreshMap()
+    public boolean isSatellite()
+    public void setSatellite(boolean)
+    public final boolean isAppKeyAvailable()
+    public final java.lang.String getVersion()
+    public int getZoomLevel()
+    public int getMaxZoomLevel()
+    public int getMinZoomLevel()
+    public int getLatitudeSpan()
+    public int getLongitudeSpan()
+    public final void removeOverlay(java.lang.Object)
+    public final void clearAllOverlays()
+    public final boolean addOverlay(com.tencent.tencentmap.mapsdk.map.Overlay)
+    public final com.tencent.mapsdk.raster.model.Marker addMarker(com.tencent.mapsdk.raster.model.MarkerOptions)
+    public com.tencent.mapsdk.raster.model.Polyline addPolyline(com.tencent.mapsdk.raster.model.PolylineOptions)
+    public com.tencent.mapsdk.raster.model.Circle addCircle(com.tencent.mapsdk.raster.model.CircleOptions)
+    public com.tencent.mapsdk.raster.model.Polygon addPolygon(com.tencent.mapsdk.raster.model.PolygonOptions)
+    public com.tencent.mapsdk.raster.model.GroundOverlay addOverlay(android.graphics.Bitmap,com.tencent.mapsdk.raster.model.LatLng,com.tencent.mapsdk.raster.model.LatLng)
+    public com.tencent.mapsdk.raster.model.GroundOverlay addGroundOverlay(com.tencent.mapsdk.raster.model.GroundOverlayOptions)
+    public void moveCamera(com.tencent.tencentmap.mapsdk.map.CameraUpdate)
+    public float getScalePerPixel()
+    public void setScalControlsEnable(boolean)
+    public void setScaleControlsEnable(boolean)
+    public void setPinchEnabeled(boolean)
+    public void setScrollGesturesEnabled(boolean)
+    public void setScaleViewPosition(int)
+    public void setLogoPosition(int)
+    protected com.tencent.mapsdk.a.d.e getMapContext()
+    protected void setLocation(double,double)
+    protected static void setIsChinese(boolean)
+com.tencent.tencentmap.mapsdk.map.MapView$LayoutParams:
+    public static final int MODE_MAP
+    public static final int MODE_VIEW
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int TOP
+    public static final int BOTTOM
+    public static final int CENTER_HORIZONTAL
+    public static final int CENTER_VERTICAL
+    public static final int CENTER
+    public static final int TOP_LEFT
+    public static final int BOTTOM_CENTER
+    public MapView$LayoutParams(int,int)
+    public MapView$LayoutParams(int,int,com.tencent.mapsdk.raster.model.LatLng,int)
+    public MapView$LayoutParams(int,int,com.tencent.mapsdk.raster.model.GeoPoint,int)
+    public MapView$LayoutParams(int,int,com.tencent.mapsdk.raster.model.GeoPoint,int,int,int)
+com.tencent.tencentmap.mapsdk.map.OnLoadedListener
+com.tencent.tencentmap.mapsdk.map.OnMapHitListener
+com.tencent.tencentmap.mapsdk.map.OnMapLongPressListener
+com.tencent.tencentmap.mapsdk.map.OnMarkerPressListener
+com.tencent.tencentmap.mapsdk.map.Overlay:
+    protected static final float SHADOW_X_SKEW
+    protected static final float SHADOW_Y_SCALE
+    protected com.tencent.mapsdk.a.d.a contentLayer
+    public void init(com.tencent.tencentmap.mapsdk.map.MapView)
+    public void onRemoveOverlay()
+    public void remove()
+    public void setZIndex(float)
+    public void setVisible(boolean)
+    public boolean equalsRemote(com.tencent.mapsdk.a.e.b)
+    public int hashCodeRemote()
+com.tencent.tencentmap.mapsdk.map.Projection:
+    public com.tencent.mapsdk.raster.model.LatLng fromScreenLocation(android.graphics.Point)
+    public android.graphics.Point toScreenLocation(com.tencent.mapsdk.raster.model.LatLng)
+    public com.tencent.mapsdk.raster.model.VisibleRegion getVisibleRegion()
+    public double distanceBetween(com.tencent.mapsdk.raster.model.LatLng,com.tencent.mapsdk.raster.model.LatLng)
+    public float metersToEquatorPixels(float)
+    public float metersToPixels(double,double)
+    public int getLatitudeSpan()
+    public int getLongitudeSpan()
+    public float getScalePerPixel()
+    public double distanceBetween(com.tencent.mapsdk.raster.model.GeoPoint,com.tencent.mapsdk.raster.model.GeoPoint)
+com.tencent.tencentmap.mapsdk.map.QSupportMapFragment
+com.tencent.tencentmap.mapsdk.map.TencentMap:
+    public com.tencent.mapsdk.raster.model.TileOverlay addTileOverlay(com.tencent.mapsdk.raster.model.TileOverlayOptions)
+    public com.tencent.mapsdk.raster.model.GroundOverlay addGroundOverlay(com.tencent.mapsdk.raster.model.GroundOverlayOptions)
+    public com.tencent.mapsdk.raster.model.Polygon addPolygon(com.tencent.mapsdk.raster.model.PolygonOptions)
+    public com.tencent.mapsdk.raster.model.Polyline addPolyline(com.tencent.mapsdk.raster.model.PolylineOptions)
+    public void animateTo(com.tencent.mapsdk.raster.model.LatLng,java.lang.Runnable)
+    public void animateTo(com.tencent.mapsdk.raster.model.LatLng,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public final void clearAllOverlays()
+    public boolean clearCache()
+    public com.tencent.mapsdk.raster.model.LatLng getMapCenter()
+    private void setMaxZoomLevel(int)
+    public int getMaxZoomLevel()
+    private void setMinZoomLevel(int)
+    public int getMinZoomLevel()
+    public final java.lang.String getVersion()
+    public final boolean isAppKeyAvailable()
+    private boolean setBounds(com.tencent.mapsdk.raster.model.LatLngBounds)
+    public final boolean isSatelliteEnabled()
+    public void setSatelliteEnabled(boolean)
+    public void moveCamera(com.tencent.tencentmap.mapsdk.map.CameraUpdate)
+    public void animateCamera(com.tencent.tencentmap.mapsdk.map.CameraUpdate)
+    public void animateCamera(com.tencent.tencentmap.mapsdk.map.CameraUpdate,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void animateCamera(com.tencent.tencentmap.mapsdk.map.CameraUpdate,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void scrollBy(float,float)
+    public void scrollBy(float,float,long,com.tencent.tencentmap.mapsdk.map.CancelableCallback)
+    public void zoomIn()
+    public void zoomInFixing(int,int)
+    public void zoomOut()
+    public void zoomOutFixing(int,int)
+    public void zoomToSpan(com.tencent.mapsdk.raster.model.LatLng,com.tencent.mapsdk.raster.model.LatLng)
+    public void zoomToSpan(double,double)
+    public void setInfoWindowAdapter(com.tencent.tencentmap.mapsdk.map.TencentMap$InfoWindowAdapter)
+    public void setOnMarkerDraggedListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMarkerDraggedListener)
+    public void setOnMapLoadedListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLoadedListener)
+    public void setOnInfoWindowClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnInfoWindowClickListener)
+    public void setOnMapCameraChangeListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapCameraChangeListener)
+    public void setOnMapClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapClickListener)
+    public void setOnMapLongClickListener(com.tencent.tencentmap.mapsdk.map.TencentMap$OnMapLongClickListener)
+    public void stopAnimation()
+    public void getScreenShot(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener)
+    public void getScreenShot(com.tencent.tencentmap.mapsdk.map.TencentMap$OnScreenShotListener,android.graphics.Rect)
+    public void removeOverlay(java.lang.Object)
+    public void setTrafficEnabled(boolean)
+com.tencent.tencentmap.mapsdk.map.TencentMap$1
+com.tencent.tencentmap.mapsdk.map.UiSettings:
+    public static final int LOGO_POSITION_LEFT_BOTTOM
+    public static final int LOGO_POSITION_RIGHT_BOTTOM
+    public static final int LOGO_POSITION_RIGHT_TOP
+    public static final int LOGO_POSITION_LEFT_TOP
+    public static final int LOGO_POSITION_CENTER_BOTTOM
+    public static final int LOGO_POSITION_CENTER_TOP
+    public static final int SCALEVIEW_POSITION_LEFT_BOTTOM
+    public static final int SCALEVIEW_POSITION_CENTER_BOTTOM
+    public static final int SCALEVIEW_POSITION_RIGHT_BOTTOM
+    public final boolean isAnimationEnabled()
+    public final void setAnimationEnabled(boolean)
+    public final void setScaleControlsEnabled(boolean)
+    public final void setScrollGesturesEnabled(boolean)
+    public final void setZoomGesturesEnabled(boolean)
+    protected final void setAllGesturesEnabled(boolean)
+    public final void setLogoPosition(int)
+    public final void setScaleViewPosition(int)
+    protected final boolean isScaleControlsEnabled()
+    protected final boolean isScrollGesturesEnabled()
+    protected final boolean isZoomGesturesEnabled()
+    protected final int getLogoPosition()
+    protected final int getScaleViewPosition()
+com.tencent.wxop.stat.NetworkMonitor:
+    public long getMillisecondsConsume()
+    public int getStatusCode()
+    public java.lang.String getDomain()
+    public int getPort()
+    public java.lang.String getRemoteIp()
+com.tencent.wxop.stat.StatAccount
+com.tencent.wxop.stat.StatAppMonitor
+com.tencent.wxop.stat.StatConfig:
+    public StatConfig()
+    public static void setDebugEnable(boolean)
+    public static void setSessionTimoutMillis(int)
+    public static void setMaxImportantDataSendRetryCount(int)
+    public static void setMaxBatchReportCount(int)
+    public static void setMaxSendRetryCount(int)
+    public static void setNumEventsCommitPerSec(int)
+    public static void setMaxStoreEventCount(int)
+    public static java.lang.String getCustomProperty(java.lang.String)
+    public static java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+    public static void setAppKey(java.lang.String)
+    public static void setQQ(android.content.Context,java.lang.String)
+    public static int getNumOfMethodsCalledLimit()
+    public static void setNumOfMethodsCalledLimit(int,long)
+    public static long getMsPeriodForMethodsCalledLimitClear()
+    public static void setMaxParallelTimmingEvents(int)
+    public static boolean isEnableSmartReporting()
+    public static void setAutoExceptionCaught(boolean)
+    public static java.lang.String getStatReportHost()
+    public static int getMaxSessionStatReportCount()
+    public static void setMaxSessionStatReportCount(int)
+    public static int getCurSessionStatReportCount()
+    public static void setMaxDaySessionNumbers(int)
+    public static int getMaxReportEventLength()
+    public static void setMaxReportEventLength(int)
+    public static void setEnableConcurrentProcess(boolean)
+    public static void setCustomUserId(android.content.Context,java.lang.String)
+    public static java.lang.String getMid(android.content.Context)
+    public static void setXGProMode(boolean)
+    public static boolean isXGProMode()
+    public static void setCustomLogger(com.tencent.wxop.stat.g)
+    public static boolean isReportEventsByOrder()
+    public static void setReportEventsByOrder(boolean)
+    public static int getNumEventsCachedInMemory()
+    public static void setNumEventsCachedInMemory(int)
+    public static long getFlushDBSpaceMS()
+    public static void setFlushDBSpaceMS(long)
+    public static int getReportCompressedSize()
+    public static void setReportCompressedSize(int)
+com.tencent.wxop.stat.StatGameUser
+com.tencent.wxop.stat.StatService:
+    public StatService()
+    public static void trackBeginPage(android.content.Context,java.lang.String)
+    public static void trackEndPage(android.content.Context,java.lang.String)
+    public static void startNewSession(android.content.Context)
+    public static void stopSession()
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String)
+    public static void reportAccount(android.content.Context,com.tencent.wxop.stat.StatAccount)
+    public static void reportGameUser(android.content.Context,com.tencent.wxop.stat.StatGameUser)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void reportException(android.content.Context,java.lang.Throwable)
+    public static varargs void trackCustomEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomKVTimeIntervalEvent(android.content.Context,int,java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.wxop.stat.StatAppMonitor)
+    public static void commitEvents(android.content.Context,int)
+    public static void testSpeed(android.content.Context)
+    public static void testSpeed(android.content.Context,java.util.Map)
+    public static void flushDataToDB(android.content.Context)
+    public static void setContext(android.content.Context)
+    public static void onStop(android.content.Context)
+    public static void onLowMemory(android.content.Context)
+    public static void setCommonKeyValueForKVEvent(java.lang.String,java.util.Properties)
+    public static java.util.Properties getCommonKeyValueForKVEvent(java.lang.String)
+com.tencent.wxop.stat.StatServiceImpl:
+    public static void setContext(android.content.Context)
+    public static void startNewSession(android.content.Context,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void stopSession()
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void reportAccount(android.content.Context,com.tencent.wxop.stat.StatAccount,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void reportGameUser(android.content.Context,com.tencent.wxop.stat.StatGameUser,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void onStop(android.content.Context,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void onLowMemory(android.content.Context)
+    public static void reportError(android.content.Context,java.lang.String,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    private static void b(android.content.Context,com.tencent.wxop.stat.StatAccount,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void reportException(android.content.Context,java.lang.Throwable,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static varargs void trackCustomEvent(android.content.Context,java.lang.String,com.tencent.wxop.stat.StatSpecifyReportedInfo,java.lang.String[])
+    public static void setCommonKeyValueForKVEvent(java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,com.tencent.wxop.stat.StatSpecifyReportedInfo,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,com.tencent.wxop.stat.StatSpecifyReportedInfo,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.wxop.stat.StatAppMonitor,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static varargs void trackCustomTimeIntervalEvent(android.content.Context,int,java.lang.String,java.lang.String[])
+    public static void trackCustomKVTimeIntervalEvent(android.content.Context,java.lang.String,java.util.Properties,int,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    public static void testSpeed(android.content.Context,java.util.Map,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    static synthetic void a(android.content.Context,com.tencent.wxop.stat.StatAccount,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+    static synthetic java.util.Map k()
+com.tencent.wxop.stat.StatSpecifyReportedInfo:
+    public void setSendImmediately(boolean)
+    public void setVersion(java.lang.String)
+    public void setInstallChannel(java.lang.String)
+    public void setImportant(boolean)
+com.tencent.wxop.stat.a.a
+com.tencent.wxop.stat.a.b:
+    public void a(long)
+com.tencent.wxop.stat.a.d:
+    public d(android.content.Context,int,java.lang.String,int,int,java.lang.Thread,com.tencent.wxop.stat.StatSpecifyReportedInfo)
+com.tencent.wxop.stat.a.g
+com.tencent.wxop.stat.a.h
+com.tencent.wxop.stat.aa
+com.tencent.wxop.stat.ab
+com.tencent.wxop.stat.ac
+com.tencent.wxop.stat.af
+com.tencent.wxop.stat.ai
+com.tencent.wxop.stat.ak
+com.tencent.wxop.stat.al
+com.tencent.wxop.stat.am
+com.tencent.wxop.stat.common.StatConstants:
+    public static final java.lang.String VERSION
+    public static final java.lang.String MTA_SERVER_HOST
+    public static final int MTA_SERVER_PORT
+    public static final java.lang.String MTA_SERVER
+    public static final java.lang.String MTA_STAT_URL
+    public static final java.lang.String MTA_REPORT_FULL_URL
+    public static final java.lang.String MTA_COOPERATION_TAG
+    public static final int STAT_DB_VERSION
+    public static final int SDK_ONLINE_CONFIG_TYPE
+    public static final int USER_ONLINE_CONFIG_TYPE
+    public static final java.lang.String LOG_TAG
+    public static final int XG_PRO_VERSION
+    public StatConstants()
+com.tencent.wxop.stat.common.StatLogger:
+    public final int getLogLevel()
+    public final void setLogLevel(int)
+    public final void setTag(java.lang.String)
+    public final void verbose(java.lang.Object)
+    public final void v(java.lang.Object)
+com.tencent.wxop.stat.common.b:
+    public static void a(android.content.Context,java.util.Map)
+com.tencent.wxop.stat.common.k:
+    public static boolean B(android.content.Context)
+com.tencent.wxop.stat.g:
+    public abstract void b(java.lang.Object)
+com.tencent.wxop.stat.n
+com.tencent.wxop.stat.o
+com.tencent.wxop.stat.p
+com.tencent.wxop.stat.r
+com.tencent.wxop.stat.s
+com.tencent.wxop.stat.v
+com.tencent.wxop.stat.x
+com.tencent.wxop.stat.y
+com.tencent.wxop.stat.z
+com.viewpagerindicator.CirclePageIndicator:
+    public void setCentered(boolean)
+    public void setPageColor(int)
+    public int getPageColor()
+    public void setFillColor(int)
+    public int getFillColor()
+    public void setOrientation(int)
+    public int getOrientation()
+    public void setStrokeColor(int)
+    public int getStrokeColor()
+    public void setStrokeWidth(float)
+    public float getStrokeWidth()
+    public void setRadius(float)
+    public float getRadius()
+    public void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+ct.bs:
+    50:64:public bs(com.tencent.map.geolocation.TencentGeofence,long,android.app.PendingIntent)
+ct.bt:
+    public boolean d
+    85:1242:private bt(android.content.Context,android.os.Looper)
+    158:159:public bt(android.content.Context)
+    266:269:public final void a()
+ct.bt$a:
+    859:861:public bt$a(ct.bt,android.os.Looper)
+ct.bt$b:
+    87:125:bt$b()
+ct.bt$c:
+    877:880:private bt$c()
+    877:877:synthetic bt$c(byte)
+ct.cu

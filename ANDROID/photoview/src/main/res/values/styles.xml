@@ -1,0 +1,11 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/txwp_color_primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/txwp_color_primary_dark</item>-->
+        <!--<item name="colorAccent">@color/txwp_color_accent</item>-->
+    <!--</style>-->
+
+</resources>
